@@ -4,13 +4,22 @@ import { useRef, useEffect } from "react";
 
 const PARTICLE_COUNT = 60;
 
-const COLORS = [
+const DARK_COLORS = [
   "rgba(129, 140, 248, 0.6)",
   "rgba(167, 139, 250, 0.5)",
   "rgba(99, 102, 241, 0.5)",
   "rgba(192, 132, 252, 0.4)",
   "rgba(255, 255, 255, 0.3)",
   "rgba(129, 140, 248, 0.3)",
+];
+
+const LIGHT_COLORS = [
+  "rgba(99, 102, 241, 0.25)",
+  "rgba(139, 92, 246, 0.2)",
+  "rgba(129, 140, 248, 0.2)",
+  "rgba(167, 139, 250, 0.18)",
+  "rgba(79, 70, 229, 0.15)",
+  "rgba(139, 92, 246, 0.12)",
 ];
 
 interface Particle {
@@ -22,7 +31,8 @@ interface Particle {
   color: string;
 }
 
-export default function FloatingDots() {
+export default function FloatingDots({ variant = "dark" }: { variant?: "dark" | "light" }) {
+  const COLORS = variant === "light" ? LIGHT_COLORS : DARK_COLORS;
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<Particle[]>([]);
 

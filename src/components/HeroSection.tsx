@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import FloatingDots from "./CursorDots";
+import FadeIn from "./FadeIn";
 
 const cyclingWords = [ "Software","Web Design", "SEO", "Development"];
 
@@ -11,10 +12,17 @@ const trustedBy = [
   "Ananta Breathwork",
   "Friendship Roofing",
   "Goldstar Roofing",
-  "Eastland Dentist",
+  "Eastland Family Dental",
   "Every1Camp",
   "Drive & Shine",
   "United Way",
+  "AVTech Specialists",
+  "Rise'n Roll Bakery",
+  "Middletown Family Dentistry",
+  "Brilliant Solar Solutions",
+  "EME Flooring",
+  "Opulent Outdoors",
+  "CPK Media Communications",
 ];
 
 export default function HeroSection() {
@@ -89,13 +97,13 @@ export default function HeroSection() {
 
             <div className="flex flex-row flex-wrap items-start gap-2 sm:gap-3">
               <Link
-                href="#contact"
+                href="/projects"
                 className="px-4 py-2 sm:px-5 sm:py-2 lg:px-7 lg:py-3 rounded-full bg-white text-black font-semibold text-sm tracking-wide hover:bg-neutral-200 transition-colors active:scale-[0.98]"
               >
                 See My Work
               </Link>
               <Link
-                href="#contact"
+                href="/contact"
                 className="px-4 py-2 sm:px-5 sm:py-2 lg:px-7 lg:py-3 rounded-full border border-white/20 text-white font-semibold text-sm tracking-wide hover:bg-white/10 backdrop-blur-md transition-all active:scale-[0.98]"
               >
                 Contact Me
@@ -106,6 +114,7 @@ export default function HeroSection() {
           {/* Right — Featured Website + Featured Software */}
           <div className="relative flex flex-col items-start gap-6 sm:flex-row sm:items-end sm:gap-5 lg:gap-6 pb-2 sm:pb-4 lg:items-center lg:pb-0 lg:justify-end">
             {/* Featured Website — Drive & Shine */}
+            <FadeIn delay={200}>
             <Link href="#projects" className="group block w-64 sm:w-48 lg:w-64 min-w-0">
               <div className="relative">
                 <div className="absolute -top-2 left-2 sm:-top-3 sm:left-3 lg:-top-3.5 lg:left-4 z-30 inline-flex items-center gap-1 px-2 py-1 sm:px-2.5 lg:px-3 lg:py-1.5 rounded-full bg-indigo-500/20 backdrop-blur-md border border-indigo-400/30 text-[10px] sm:text-[9px] lg:text-[11px] font-semibold text-indigo-200 tracking-wider uppercase">
@@ -130,9 +139,11 @@ export default function HeroSection() {
               </div>
               </div>
             </Link>
+            </FadeIn>
 
             {/* Featured Software — simplSEO */}
-            <Link href="#projects" className="group block w-64 sm:w-48 lg:w-64 min-w-0">
+            <FadeIn delay={400}>
+            <Link href="https://simplseo-io.vercel.app" target="_blank" rel="noopener noreferrer" className="group block w-64 sm:w-48 lg:w-64 min-w-0">
               <div className="relative">
                 <div className="absolute -top-2 left-2 sm:-top-3 sm:left-3 lg:-top-3.5 lg:left-4 z-30 inline-flex items-center gap-1 px-2 py-1 sm:px-2.5 lg:px-3 lg:py-1.5 rounded-full bg-emerald-500/20 backdrop-blur-md border border-emerald-400/30 text-[10px] sm:text-[9px] lg:text-[11px] font-semibold text-emerald-200 tracking-wider uppercase">
                   <span className="w-0.5 h-0.5 sm:w-1 sm:h-1 lg:w-1.5 lg:h-1.5 rounded-full bg-emerald-400 hidden sm:block"></span>
@@ -154,6 +165,7 @@ export default function HeroSection() {
               </div>
               </div>
             </Link>
+            </FadeIn>
           </div>
         </div>
       </div>

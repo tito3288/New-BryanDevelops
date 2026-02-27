@@ -1,32 +1,13 @@
-import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import Navbar from "@/components/Navbar";
+import FadeIn from "@/components/FadeIn";
+import FAQSection from "@/components/FAQSection";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-neutral-950 font-sans selection:bg-indigo-500/30">
-      {/* 
-        ========================================================
-        NAVBAR (Glassmorphism)
-        ========================================================
-      */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 lg:px-12 bg-black/20 backdrop-blur-lg border-b border-white/10">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center text-white font-bold text-sm">
-            B
-          </div>
-          <span className="text-white font-semibold text-lg tracking-wide">
-            BryanDevelops
-          </span>
-        </div>
-        <div className="hidden md:flex items-center gap-8 text-neutral-300 text-sm font-medium">
-          <Link href="#services" className="hover:text-white transition-colors">Services</Link>
-          <Link href="#projects" className="hover:text-white transition-colors">My Work</Link>
-          <Link href="#about" className="hover:text-white transition-colors">About</Link>
-          <button className="px-5 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md text-white transition-all">
-            Get Started
-          </button>
-        </div>
-      </nav>
+      <Navbar variant="dark" />
 
       {/* 
         ========================================================
@@ -55,7 +36,8 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group">
+            <FadeIn delay={0}>
+            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group h-full">
               <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
               </div>
@@ -64,8 +46,10 @@ export default function Home() {
                 Powerful web design services that will out-perform your strongest competitors. Custom, tailored, and responsive.
               </p>
             </div>
+            </FadeIn>
 
-            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group">
+            <FadeIn delay={100}>
+            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group h-full">
               <div className="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
               </div>
@@ -74,8 +58,10 @@ export default function Home() {
                 Optimizing web designs to rank on the first page of Google. Get more traffic, leads, and potential customers.
               </p>
             </div>
+            </FadeIn>
 
-            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group">
+            <FadeIn delay={200}>
+            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group h-full">
               <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               </div>
@@ -84,8 +70,10 @@ export default function Home() {
                 Custom programming for the most complex functions you can think of. Bringing your biggest ideas to life.
               </p>
             </div>
+            </FadeIn>
 
-            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group">
+            <FadeIn delay={0}>
+            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group h-full">
               <div className="w-12 h-12 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
               </div>
@@ -94,8 +82,10 @@ export default function Home() {
                 Expert troubleshooting, bug fixes, and IT solutions to keep your website running seamlessly.
               </p>
             </div>
+            </FadeIn>
 
-            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group">
+            <FadeIn delay={100}>
+            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group h-full">
               <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
               </div>
@@ -104,8 +94,10 @@ export default function Home() {
                 Regular updates, performance optimization, backups, and expert troubleshooting to ensure hassle-free operation.
               </p>
             </div>
+            </FadeIn>
 
-            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group">
+            <FadeIn delay={200}>
+            <div className="p-8 rounded-3xl bg-white/60 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all group h-full">
               <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
               </div>
@@ -114,9 +106,19 @@ export default function Home() {
                 A solid brand strategy, logo, and guidelines help you get recognized and build trust with your audience.
               </p>
             </div>
+            </FadeIn>
           </div>
         </div>
       </section>
+
+      {/* 
+        ========================================================
+        PROJECTS / MY WORK SECTION
+        ========================================================
+      */}
+      <ProjectsSection />
+
+      <FAQSection />
 
       {/* 
         ========================================================
@@ -135,37 +137,45 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="relative p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all group">
+            <FadeIn delay={0}>
+            <div className="relative p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all group h-full">
               <div className="text-5xl font-black text-white/10 absolute top-6 right-6 group-hover:text-white/20 transition-colors">01</div>
               <h3 className="text-2xl font-bold text-white mb-4 mt-8">Strategy</h3>
               <p className="text-neutral-400 leading-relaxed">
                 I analyze your competition and target audience to uncover what works. Using insights to craft a custom strategy.
               </p>
             </div>
+            </FadeIn>
 
-            <div className="relative p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all group">
+            <FadeIn delay={100}>
+            <div className="relative p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all group h-full">
               <div className="text-5xl font-black text-white/10 absolute top-6 right-6 group-hover:text-white/20 transition-colors">02</div>
               <h3 className="text-2xl font-bold text-white mb-4 mt-8">Design</h3>
               <p className="text-neutral-400 leading-relaxed">
                 From color schemes to layouts, bringing your brand to life with a custom design unique to your business.
               </p>
             </div>
+            </FadeIn>
 
-            <div className="relative p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all group">
+            <FadeIn delay={200}>
+            <div className="relative p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all group h-full">
               <div className="text-5xl font-black text-white/10 absolute top-6 right-6 group-hover:text-white/20 transition-colors">03</div>
               <h3 className="text-2xl font-bold text-white mb-4 mt-8">Develop</h3>
               <p className="text-neutral-400 leading-relaxed">
                 Building your site on a dev server, giving you live access to see your vision come to life every step.
               </p>
             </div>
+            </FadeIn>
 
-            <div className="relative p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all group">
+            <FadeIn delay={300}>
+            <div className="relative p-8 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all group h-full">
               <div className="text-5xl font-black text-white/10 absolute top-6 right-6 group-hover:text-white/20 transition-colors">04</div>
               <h3 className="text-2xl font-bold text-white mb-4 mt-8">Support</h3>
               <p className="text-neutral-400 leading-relaxed">
                 Launch with confidence. I&apos;ll be here to ensure your website stays fast, secure, and running smoothly.
               </p>
             </div>
+            </FadeIn>
           </div>
         </div>
       </section>
