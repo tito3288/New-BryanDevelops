@@ -35,6 +35,8 @@ export default function FloatingDots({ variant = "dark" }: { variant?: "dark" | 
   const COLORS = variant === "light" ? LIGHT_COLORS : DARK_COLORS;
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<Particle[]>([]);
+  const isScrollingRef = useRef(false);
+  const scrollTimeoutRef = useRef<ReturnType<typeof setTimeout>>();
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -71,8 +73,10 @@ export default function FloatingDots({ variant = "dark" }: { variant?: "dark" | 
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       for (const p of particlesRef.current) {
-        p.x += p.vx;
-        p.y += p.vy;
+        if (!isScrollingRef.current) {
+          p.x += p.vx;
+          p.y += p.vy;
+        }
 
         if (p.x < -10) p.x = canvas.width + 10;
         if (p.x > canvas.width + 10) p.x = -10;
@@ -95,11 +99,22 @@ export default function FloatingDots({ variant = "dark" }: { variant?: "dark" | 
       initParticles();
     };
 
+    const handleScroll = () => {
+      isScrollingRef.current = true;
+      clearTimeout(scrollTimeoutRef.current);
+      scrollTimeoutRef.current = setTimeout(() => {
+        isScrollingRef.current = false;
+      }, 150);
+    };
+
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
       cancelAnimationFrame(rafId);
+      clearTimeout(scrollTimeoutRef.current);
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -107,6 +122,7 @@ export default function FloatingDots({ variant = "dark" }: { variant?: "dark" | 
     <canvas
       ref={canvasRef}
       className="pointer-events-none absolute inset-0 z-[3]"
+      style={{ willChange: "transform", transform: "translateZ(0)" }}
       aria-hidden
     />
   );
