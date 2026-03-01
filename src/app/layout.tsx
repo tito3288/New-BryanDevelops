@@ -9,6 +9,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Bryan Develops | Web Design, SEO & Custom Software — South Bend, IN",
+  icons: {
+    icon: "/Bryan-Develops-logo-2.png",
+  },
   description:
     "Custom web design, SEO optimization, and software development by Bryan Develops. Helping businesses in South Bend and nationwide with websites, search rankings, and custom apps that drive real results.",
   keywords: [

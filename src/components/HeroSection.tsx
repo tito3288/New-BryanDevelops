@@ -41,7 +41,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="hero-grid-bg relative h-screen bg-black overflow-hidden flex flex-col pt-28">
+    <section className="hero-grid-bg relative h-screen bg-black overflow-hidden flex flex-col pt-15">
       <FloatingDots />
       {/* Subtle gradient blobs */}
       <div className="absolute top-1/4 right-0 w-[30rem] h-[30rem] bg-indigo-600/15 rounded-full filter blur-[140px] pointer-events-none"></div>

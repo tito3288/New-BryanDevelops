@@ -23,7 +23,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Drive & Shine",
-    logo: "/logos/drive-and-shine.png",
+    logo: "/logos/driveandshine.png",
     description:
       "Full rebrand and custom website for a premium car wash. Boosted search visibility and tripled online bookings within months.",
     tags: ["Web Design", "SEO", "Branding"],
@@ -52,7 +52,7 @@ const projects: Project[] = [
   },
   {
     title: "Rise'n Roll Bakery",
-    logo: null,
+    logo: "/logos/risenroll.png",
     description:
       "Amish-style bakery website featuring fresh-baked goods, product catalog, and locations across Indiana.",
     tags: ["Web Design", "Branding"],
@@ -66,7 +66,7 @@ const projects: Project[] = [
   },
   {
     title: "United Way of St. Joseph County",
-    logo: null,
+    logo: "/logos/unitedway.png",
     description:
       "Nonprofit website for community impact in South Bend. Education, health, and financial stability programs.",
     tags: ["Web Design", "Development"],
@@ -94,7 +94,7 @@ const projects: Project[] = [
   },
   {
     title: "Friendship Roofing",
-    logo: "/logos/friendship-roofing.png",
+    logo: "/logos/friendshiproofing.png",
     description:
       "Lead-generation website for a growing roofing company. SEO-optimized to dominate local search results in the region.",
     tags: ["Web Design", "SEO"],
@@ -348,32 +348,29 @@ export default function WorkPageContent() {
                 }
                 className={`group relative flex flex-col rounded-2xl bg-white/70 backdrop-blur-xl border border-white shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.08)] ${c.hoverShadow} hover:-translate-y-1 transition-all duration-300 overflow-hidden`}
               >
-                {/* Accent gradient top bar */}
+                {/* Logo banner */}
+                <div className="w-full h-20 bg-neutral-50 border-b border-neutral-100 flex items-center justify-center px-6">
+                  {project.logo ? (
+                    <Image
+                      src={project.logo}
+                      alt={`${project.title} logo`}
+                      width={120}
+                      height={48}
+                      className="object-contain max-h-12"
+                    />
+                  ) : (
+                    <span className={`text-2xl font-bold ${c.tagText} tracking-tight`}>
+                      {project.title}
+                    </span>
+                  )}
+                </div>
+
+                {/* Accent gradient bar */}
                 <div
                   className={`h-1 w-full bg-gradient-to-r ${c.topLine} opacity-80 group-hover:opacity-100 transition-opacity`}
                 />
 
                 <div className="flex flex-col flex-1 p-6 lg:p-7">
-                  {/* Logo */}
-                  <div className="mb-4">
-                    {project.logo ? (
-                      <div className="relative w-10 h-10 rounded-xl bg-neutral-100 border border-neutral-200/60 overflow-hidden flex items-center justify-center">
-                        <Image
-                          src={project.logo}
-                          alt={`${project.title} logo`}
-                          width={32}
-                          height={32}
-                          className="object-contain"
-                        />
-                      </div>
-                    ) : (
-                      <div className={`w-10 h-10 rounded-xl ${c.tagBg} border ${c.tagBorder} flex items-center justify-center`}>
-                        <span className={`text-base font-bold ${c.tagText}`}>
-                          {project.title.charAt(0)}
-                        </span>
-                      </div>
-                    )}
-                  </div>
 
                   {/* Title */}
                   <div className="flex items-start justify-between mb-3">

@@ -18,7 +18,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Drive & Shine",
-    logo: "/logos/drive-and-shine.png",
+    logo: "/logos/driveandshine.png",
     description: "Full rebrand and custom website for a premium car wash. Boosted search visibility and tripled online bookings.",
     tags: ["Web Design", "SEO", "Branding"],
     url: "https://driveandshine.com",
@@ -55,7 +55,7 @@ const projects: Project[] = [
   },
   {
     title: "Friendship Roofing",
-    logo: "/logos/friendship-roofing.png",
+    logo: "/logos/friendshiproofing.png",
     description: "Lead-generation website SEO-optimized to dominate local search results.",
     tags: ["Web Design", "SEO"],
     url: "https://friendshiproof.com",
@@ -116,7 +116,7 @@ const projects: Project[] = [
   },
   {
     title: "Rise'n Roll Bakery",
-    logo: null,
+    logo: "/logos/risenroll.png",
     description: "Amish-style bakery website featuring fresh-baked goods, product catalog, and locations across Indiana.",
     tags: ["Web Design", "Branding"],
     url: "https://risenroll.com",
@@ -140,7 +140,7 @@ const projects: Project[] = [
   },
   {
     title: "United Way of St. Joseph County",
-    logo: null,
+    logo: "/logos/unitedway.png",
     description: "Nonprofit website for community impact in South Bend. Education, health, and financial stability programs.",
     tags: ["Web Design", "Development"],
     url: "https://uwsjc.org",
@@ -331,18 +331,18 @@ export default function ProjectsSection() {
                   {/* Logo */}
                   <div className="mb-4">
                     {project.logo ? (
-                      <div className="relative w-10 h-10 rounded-xl bg-white/[0.06] border border-white/10 overflow-hidden flex items-center justify-center">
+                      <div className="relative w-14 h-14 rounded-xl bg-white/[0.06] border border-white/10 overflow-hidden flex items-center justify-center">
                         <Image
                           src={project.logo}
                           alt={`${project.title} logo`}
-                          width={32}
-                          height={32}
+                          width={44}
+                          height={44}
                           className="object-contain"
                         />
                       </div>
                     ) : (
-                      <div className={`w-10 h-10 rounded-xl ${c.bg} border ${c.border} flex items-center justify-center`}>
-                        <span className={`text-base font-bold ${c.text}`}>{project.title.charAt(0)}</span>
+                      <div className={`w-14 h-14 rounded-xl ${c.bg} border ${c.border} flex items-center justify-center`}>
+                        <span className={`text-lg font-bold ${c.text}`}>{project.title.charAt(0)}</span>
                       </div>
                     )}
                   </div>
