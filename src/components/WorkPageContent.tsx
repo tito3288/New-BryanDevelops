@@ -80,7 +80,7 @@ const projects: Project[] = [
   },
   {
     title: "Ananta Breathwork",
-    logo: "/logos/ananta-breathwork.png",
+    logo: "/logos/anantabreathwork.png",
     description:
       "Wellness brand website with booking integration and calming visual identity. Designed to convert visitors into loyal clients.",
     tags: ["Web Design", "Branding"],
@@ -109,7 +109,7 @@ const projects: Project[] = [
   },
   {
     title: "Goldstar Roofing",
-    logo: "/logos/goldstar-roofing.png",
+    logo: "/logos/goldstarroofing.jpg",
     description:
       "Professional site with before/after gallery and instant quote system. Built to establish trust and generate calls.",
     tags: ["Web Design", "Development"],
@@ -123,7 +123,7 @@ const projects: Project[] = [
   },
   {
     title: "Every1Camp",
-    logo: "/logos/every1camp.png",
+    logo: "/logos/everyonecamp.png",
     description:
       "Community-driven platform connecting families with local camps. Custom search, filtering, and registration built from scratch.",
     tags: ["Web Design", "Development", "Software"],
@@ -137,7 +137,7 @@ const projects: Project[] = [
   },
   {
     title: "Eastland Family Dental",
-    logo: null,
+    logo: "/logos/eastlanddental.webp",
     description:
       "Professional dental practice website for a family dentist in Independence, MO. Online booking, services, and patient resources.",
     tags: ["Web Design", "SEO"],
@@ -151,7 +151,7 @@ const projects: Project[] = [
   },
   {
     title: "AVTech Specialists",
-    logo: null,
+    logo: "/logos/avtech.png",
     description:
       "Custom website for South Bend's audio, video, and smart home experts. Showcasing services across 8 locations.",
     tags: ["Web Design", "Development"],
@@ -165,7 +165,7 @@ const projects: Project[] = [
   },
   {
     title: "Middletown Family Dentistry",
-    logo: null,
+    logo: "/logos/middletowndentistry.jpg",
     description:
       "Trusted dental care website for a family dentist in Middletown, IN. Services, team, and online booking.",
     tags: ["Web Design", "SEO"],
@@ -179,7 +179,7 @@ const projects: Project[] = [
   },
   {
     title: "Brilliant Solar Solutions",
-    logo: null,
+    logo: "/logos/brilliantsolar.png",
     description:
       "Solar energy company website serving Indiana, Illinois, and nationwide. Lead generation and consultation booking.",
     tags: ["Web Design", "SEO"],
@@ -193,7 +193,7 @@ const projects: Project[] = [
   },
   {
     title: "EME Flooring",
-    logo: null,
+    logo: "/logos/emeflooring.png",
     description:
       "Epoxy flooring company serving South Bend and Michiana. Services, gallery, and quote requests.",
     tags: ["Web Design", "SEO"],
@@ -207,7 +207,7 @@ const projects: Project[] = [
   },
   {
     title: "Opulent Outdoors",
-    logo: null,
+    logo: "/logos/opulantoutdoors.webp",
     description:
       "Veteran-owned adventure company. Custom trips, booking system, and outdoor experiences across Michigan.",
     tags: ["Web Design", "Development"],
@@ -221,7 +221,7 @@ const projects: Project[] = [
   },
   {
     title: "CPK Media Communications",
-    logo: null,
+    logo: "/logos/cpkmedia.webp",
     description:
       "Marketing and communications agency. Story-driven content, broadcast, social media, and PR services.",
     tags: ["Web Design", "Branding"],

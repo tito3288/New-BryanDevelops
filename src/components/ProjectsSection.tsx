@@ -31,7 +31,7 @@ const projects: Project[] = [
   },
   {
     title: "simplSEO",
-    logo: "/logos/simplseo.png",
+    logo: "/logos/simplseo-white.png",
     description: "Custom-built SEO workflow software for audits, rank tracking, and reporting.",
     tags: ["Software", "SEO", "Development"],
     url: "https://simplseo-io.vercel.app",
@@ -43,7 +43,7 @@ const projects: Project[] = [
   },
   {
     title: "Ananta Breathwork",
-    logo: "/logos/ananta-breathwork.png",
+    logo: "/logos/anantabreathwork.png",
     description: "Wellness brand website with booking integration and calming visual identity.",
     tags: ["Web Design", "Branding"],
     url: "https://www.anantabreathwork.com",
@@ -68,7 +68,7 @@ const projects: Project[] = [
   },
   {
     title: "Goldstar Roofing",
-    logo: "/logos/goldstar-roofing.png",
+    logo: "/logos/goldstarroofing.jpg",
     description: "Professional site with before/after gallery and instant quote system.",
     tags: ["Web Design", "Development"],
     url: "https://goldstarroofingandcoatings.com",
@@ -80,7 +80,7 @@ const projects: Project[] = [
   },
   {
     title: "Every1Camp",
-    logo: "/logos/every1camp.png",
+    logo: "/logos/everyonecamp-white.png",
     description: "Community platform connecting families with local camps. Custom search and registration.",
     tags: ["Web Design", "Development", "Software"],
     url: "https://every1camp.com",
@@ -92,7 +92,7 @@ const projects: Project[] = [
   },
   {
     title: "Eastland Family Dental",
-    logo: null,
+    logo: "/logos/eastlanddental.webp",
     description: "Professional dental practice website for a family dentist in Independence, MO. Online booking, services, and patient resources.",
     tags: ["Web Design", "SEO"],
     url: "https://www.eastlandfamilydental.com",
@@ -104,7 +104,7 @@ const projects: Project[] = [
   },
   {
     title: "AVTech Specialists",
-    logo: null,
+    logo: "/logos/avtech.png",
     description: "Custom website for South Bend's audio, video, and smart home experts. Showcasing services across 8 locations.",
     tags: ["Web Design", "Development"],
     url: "https://rightchoiceav.com",
@@ -116,7 +116,7 @@ const projects: Project[] = [
   },
   {
     title: "Rise'n Roll Bakery",
-    logo: "/logos/risenroll.png",
+    logo: "/logos/risenroll-white.png",
     description: "Amish-style bakery website featuring fresh-baked goods, product catalog, and locations across Indiana.",
     tags: ["Web Design", "Branding"],
     url: "https://risenroll.com",
@@ -128,7 +128,7 @@ const projects: Project[] = [
   },
   {
     title: "Middletown Family Dentistry",
-    logo: null,
+    logo: "/logos/middletowndentistry.jpg",
     description: "Trusted dental care website for a family dentist in Middletown, IN. Services, team, and online booking.",
     tags: ["Web Design", "SEO"],
     url: "https://middletown-dentist.com",
@@ -152,7 +152,7 @@ const projects: Project[] = [
   },
   {
     title: "Brilliant Solar Solutions",
-    logo: null,
+    logo: "/logos/brilliantsolar-white.png",
     description: "Solar energy company website serving Indiana, Illinois, and nationwide. Lead generation and consultation booking.",
     tags: ["Web Design", "SEO"],
     url: "https://brilliantsolarsolution.com",
@@ -164,7 +164,7 @@ const projects: Project[] = [
   },
   {
     title: "EME Flooring",
-    logo: null,
+    logo: "/logos/emeflooring.png",
     description: "Epoxy flooring company serving South Bend and Michiana. Services, gallery, and quote requests.",
     tags: ["Web Design", "SEO"],
     url: "https://emeepoxyflooring.com",
@@ -176,7 +176,7 @@ const projects: Project[] = [
   },
   {
     title: "Opulent Outdoors",
-    logo: null,
+    logo: "/logos/opulantoutdoors.webp",
     description: "Veteran-owned adventure company. Custom trips, booking system, and outdoor experiences across Michigan.",
     tags: ["Web Design", "Development"],
     url: "https://opulentoutdoorsadv.com",
@@ -188,7 +188,7 @@ const projects: Project[] = [
   },
   {
     title: "CPK Media Communications",
-    logo: null,
+    logo: "/logos/cpkmedia-white.webp",
     description: "Marketing and communications agency. Story-driven content, broadcast, social media, and PR services.",
     tags: ["Web Design", "Branding"],
     url: "https://cpkmediacommunications.com",

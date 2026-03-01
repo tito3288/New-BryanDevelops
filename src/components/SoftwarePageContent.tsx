@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import FloatingDots from "./CursorDots";
 import FadeIn from "./FadeIn";
 
@@ -420,18 +421,21 @@ export default function SoftwarePageContent() {
             {[
               {
                 name: "La Loteria",
+                icon: "/logos/laloteria.png",
                 desc: "The classic Mexican bingo game — caller mode, play against the computer, all 54 traditional cards with authentic riddles. Perfect for family game nights.",
                 status: "Live",
                 url: "https://apps.apple.com/us/app/la-loteria-mexican-bingo/id6759211287",
               },
               {
                 name: "Remind Me - Reminders",
+                icon: "/logos/remindme.png",
                 desc: "Simple, beginner-friendly reminder app with location-based and date/time alerts. No sign-up required — just create and let it assist you when you need it.",
                 status: "Live",
                 url: "https://apps.apple.com/us/app/remind-me-reminders/id1617564386",
               },
               {
                 name: "Team Up - Teams",
+                icon: "/logos/teamup.png",
                 desc: "Stop wasting time picking teams. Type player names, choose the number of teams, and Team Up divides everyone evenly — no arguing over who's captain.",
                 status: "Live",
                 url: "https://apps.apple.com/us/app/team-up-teams/id1618447199",
@@ -444,11 +448,20 @@ export default function SoftwarePageContent() {
                   rel="noopener noreferrer"
                   className="block p-6 rounded-2xl bg-white/[0.02] border border-white/[0.05] hover:bg-white/[0.04] hover:border-white/[0.08] transition-all duration-300 group"
                 >
-                  <div className="flex items-center justify-between mb-3">
-                    <h3 className="text-white font-semibold group-hover:text-indigo-300 transition-colors">{app.name}</h3>
-                    <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                      {app.status}
-                    </span>
+                  <div className="flex items-start gap-4 mb-3">
+                    <Image
+                      src={app.icon}
+                      alt={`${app.name} icon`}
+                      width={56}
+                      height={56}
+                      className="rounded-xl object-contain flex-shrink-0"
+                    />
+                    <div className="flex items-center justify-between flex-1 min-w-0">
+                      <h3 className="text-white font-semibold group-hover:text-indigo-300 transition-colors">{app.name}</h3>
+                      <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex-shrink-0">
+                        {app.status}
+                      </span>
+                    </div>
                   </div>
                   <p className="text-neutral-500 text-sm leading-relaxed">{app.desc}</p>
                   <span className="inline-flex items-center gap-1.5 mt-3 text-indigo-400 text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity">
