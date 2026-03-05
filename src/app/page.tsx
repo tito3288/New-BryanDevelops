@@ -43,7 +43,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-3">Web Design</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Powerful web design services that will out-perform your strongest competitors. Custom, tailored, and responsive.
+              Custom website design built to attract customers and convert visitors. Fast, mobile-friendly, and tailored to your brand, whether you're in South Bend or anywhere in the country.
               </p>
             </div>
             </FadeIn>
@@ -55,7 +55,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-3">SEO Optimization</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Optimizing web designs to rank on the first page of Google. Get more traffic, leads, and potential customers.
+              Get found on Google when people search for your services. I handle keyword research, on-page SEO, local SEO for Google Maps, and ongoing rank tracking to grow your traffic.
               </p>
             </div>
             </FadeIn>
@@ -65,9 +65,9 @@ export default function Home() {
               <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               </div>
-              <h3 className="text-xl font-bold text-neutral-900 mb-3">Development</h3>
+              <h3 className="text-xl font-bold text-neutral-900 mb-3">App & Software Development</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Custom programming for the most complex functions you can think of. Bringing your biggest ideas to life.
+              Need a custom web app, mobile app, or business tool to automate your workflows? I build software solutions that solve real problems. From booking systems and dashboards to full SaaS platforms.
               </p>
             </div>
             </FadeIn>
@@ -79,7 +79,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-3">Technical Support</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Expert troubleshooting, bug fixes, and IT solutions to keep your website running seamlessly.
+              Something broken on your website? I offer fast troubleshooting, bug fixes, and website support so your site stays online and running smoothly.
               </p>
             </div>
             </FadeIn>
@@ -91,7 +91,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-3">WP Maintenance</h3>
               <p className="text-neutral-600 leading-relaxed">
-                Regular updates, performance optimization, backups, and expert troubleshooting to ensure hassle-free operation.
+              Keep your WordPress site secure, fast, and up to date with a monthly maintenance plan. Includes plugin updates, backups, performance monitoring, and priority support.
               </p>
             </div>
             </FadeIn>
@@ -103,7 +103,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-3">Branding</h3>
               <p className="text-neutral-600 leading-relaxed">
-                A solid brand strategy, logo, and guidelines help you get recognized and build trust with your audience.
+              Build a brand people remember. I create logos, color palettes, and brand guidelines that give your business a professional, consistent look across every platform.
               </p>
             </div>
             </FadeIn>

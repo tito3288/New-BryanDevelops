@@ -140,24 +140,24 @@ const painPoints = [
   {
     question: "You paid someone to build it but have no idea how to update it?",
     answer:
-      "This is one of the most common things I hear from business owners in South Bend. They paid for a site, the developer disappeared, and now they can't even change their phone number. I build sites you can actually manage — and I teach you how.",
+      "This is one of the most common things I hear from business owners in South Bend. They paid for a site, the developer disappeared, and now they can't even change their phone number. I build sites you can actually manage, and I teach you how.",
   },
   {
     question: "You're not showing up on Google and losing customers to competitors?",
     answer:
-      "A beautiful website means nothing if nobody can find it. Every site I build is optimized for search engines from day one — proper structure, fast loading, mobile-friendly, and keyword-focused.",
+      "A beautiful website means nothing if nobody can find it. Every site I build is optimized for search engines from day one. Proper structure, fast loading, mobile-friendly, and keyword-focused.",
   },
   {
     question: "You need an online store but don't know where to start?",
     answer:
-      "Selling products online doesn't have to be complicated. Whether it's Shopify, WooCommerce, or Squarespace — I'll set up your store, connect payments, and walk you through managing orders and inventory.",
+      "Selling products online doesn't have to be complicated. Whether it's Shopify, WooCommerce, or Squarespace, I'll set up your store, connect payments, and walk you through managing orders and inventory.",
   },
 ];
 
 const services = [
   {
     title: "Custom Website Design",
-    desc: "A site designed around your brand, your goals, and your customers — not a generic template with your logo slapped on.",
+    desc: "A site designed around your brand, your goals, and your customers. Not a generic template with your logo slapped on.",
     accent: "indigo",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -167,7 +167,7 @@ const services = [
   },
   {
     title: "E-Commerce & Online Stores",
-    desc: "Sell products or services online with a full store setup — Shopify, WooCommerce, or Squarespace Commerce. Payments, inventory, and shipping included.",
+    desc: "Sell products or services online with a full store setup. Shopify, WooCommerce, or Squarespace Commerce. Payments, inventory, and shipping included.",
     accent: "emerald",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -197,7 +197,7 @@ const services = [
   },
   {
     title: "Mobile-Friendly Design",
-    desc: "Over half of web traffic is mobile. Every site I build looks and works perfectly on phones, tablets, and desktops — no pinching or zooming required.",
+    desc: "Over half of web traffic is mobile. Every site I build looks and works perfectly on phones, tablets, and desktops. No pinching or zooming required.",
     accent: "amber",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -234,17 +234,17 @@ const processSteps = [
   {
     num: "02",
     title: "Design",
-    desc: "I create mockups you approve before any building starts. You'll see exactly what your site will look like — no surprises.",
+    desc: "I create mockups you approve before any building starts. You'll see exactly what your site will look like. No surprises.",
   },
   {
     num: "03",
     title: "Build",
-    desc: "Your site gets built on the platform that fits best — WordPress, Shopify, Squarespace, Wix, or custom code. Fast, clean, and SEO-ready.",
+    desc: "Your site gets built on the platform that fits best: WordPress, Shopify, Squarespace, Wix, or custom code. Fast, clean, and SEO-ready.",
   },
   {
     num: "04",
     title: "Launch & Training",
-    desc: "We go live. Then I walk you through everything — how to edit pages, update content, and manage your site with confidence.",
+    desc: "We go live. Then I walk you through everything: how to edit pages, update content, and manage your site with confidence.",
   },
 ];
 
@@ -271,7 +271,7 @@ export default function WebDevPageContent() {
             </h1>
             <p className="text-neutral-500 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
               Affordable, professional websites for small businesses in South Bend and beyond.
-              Built on the platform that fits your needs, designed to look great, and &mdash; best of all &mdash;{" "}
+              Built on the platform that fits your needs, designed to look great, and, best of all,{" "}
               <span className="text-neutral-800 font-medium">I teach you how to manage it yourself.</span>
             </p>
             <div className="flex flex-wrap items-center gap-3">
@@ -296,7 +296,7 @@ export default function WebDevPageContent() {
 
           <FadeIn delay={200}>
             <p className="mt-12 text-neutral-400 text-sm">
-              Based in South Bend, Indiana — serving Michiana businesses and clients nationwide.
+              Based in South Bend, Indiana. Serving Michiana businesses and clients nationwide.
             </p>
           </FadeIn>
         </div>
@@ -353,7 +353,7 @@ export default function WebDevPageContent() {
                 Does This Sound Like You?
               </h2>
               <p className="text-neutral-500 text-lg max-w-xl mx-auto">
-                If you&apos;re a business owner in South Bend dealing with any of these, you&apos;re not alone &mdash; and I can help.
+                If you&apos;re a business owner in South Bend dealing with any of these, you&apos;re not alone, and I can help.
               </p>
             </div>
           </FadeIn>
@@ -392,7 +392,7 @@ export default function WebDevPageContent() {
                 Everything Your Business Needs Online
               </h2>
               <p className="text-neutral-500 text-lg max-w-2xl">
-                No matter the platform, no matter the budget &mdash; every website I build comes with these essentials.
+                No matter the platform, no matter the budget, every website I build comes with these essentials.
               </p>
             </div>
           </FadeIn>
@@ -433,7 +433,7 @@ export default function WebDevPageContent() {
                 </h2>
                 <p className="text-neutral-500 text-lg leading-relaxed mb-6">
                   Most web developers hand you a finished site and disappear. I do the opposite. After your
-                  site launches, I walk you through everything &mdash; how to edit text, update images, add new
+                  site launches, I walk you through everything: how to edit text, update images, add new
                   pages, and manage your content with confidence.
                 </p>
                 <p className="text-neutral-700 font-medium mb-6">
@@ -506,7 +506,7 @@ export default function WebDevPageContent() {
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Fit Your Budget</span>
                 </h2>
                 <p className="text-neutral-500 text-base max-w-lg mx-auto mb-8">
-                  Every project is different, so every quote is custom. I work with your budget to deliver the best possible result &mdash; no hidden fees, no surprises.
+                  Every project is different, so every quote is custom. I work with your budget to deliver the best possible result. No hidden fees, no surprises.
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-6 mb-8 text-left max-w-md mx-auto">
                   <ul className="flex flex-col gap-2">
@@ -597,7 +597,7 @@ export default function WebDevPageContent() {
                 Ready for a Website That Works?
               </h2>
               <p className="text-neutral-500 text-lg mb-8">
-                Whether you&apos;re in South Bend, Mishawaka, Elkhart, or anywhere in the country &mdash; let&apos;s
+                Whether you&apos;re in South Bend, Mishawaka, Elkhart, or anywhere in the country. Let&apos;s
                 build a site that looks professional, ranks on Google, and you can actually manage yourself.
                 Free consultation, no strings attached.
               </p>

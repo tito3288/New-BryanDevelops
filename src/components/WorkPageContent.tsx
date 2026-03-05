@@ -448,7 +448,7 @@ export default function WorkPageContent() {
                 Have a Project in Mind?
               </h2>
               <p className="text-neutral-500 text-lg mb-8">
-                Whether it&apos;s a website, software, or SEO strategy &mdash; let&apos;s
+                Whether it&apos;s a website, software, or SEO strategy. Let&apos;s
                 build something great together. Free consultation, no strings attached.
               </p>
               <div className="flex flex-wrap justify-center gap-3">

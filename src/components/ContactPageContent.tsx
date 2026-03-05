@@ -52,7 +52,7 @@ export default function ContactPageContent() {
                 </h1>
                 <p className="text-neutral-400 text-lg leading-relaxed max-w-md">
                   Have a project in mind? Whether it&apos;s a website, SEO strategy,
-                  or custom software — I&apos;d love to hear about it.
+                  or custom software. I&apos;d love to hear about it.
                 </p>
               </div>
 

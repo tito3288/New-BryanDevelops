@@ -70,7 +70,7 @@ export default function HeroSection() {
           <div className="flex flex-col gap-2 sm:gap-3 lg:gap-6 pt-2 sm:pt-4 lg:pt-0">
             <h1 className="text-[clamp(2.2rem,7vw,5rem)] font-bold leading-[1.1] tracking-tight">
               <span className="sr-only">
-                Web Design, SEO, Custom Software Development &amp; Branding Solutions — South Bend, Indiana
+                Web Design, Custom Software &amp; SEO — South Bend, Indiana
               </span>
               <span aria-hidden="true">
                 <span className="relative block h-[1.25em]">
@@ -126,14 +126,14 @@ export default function HeroSection() {
                 <h3 className="text-white text-sm sm:text-sm lg:text-lg font-bold mb-1 sm:mb-1 lg:mb-1.5 relative z-10">Drive &amp; Shine</h3>
                 <div className="flex items-center gap-1.5 lg:gap-2 mb-2 sm:mb-1.5 lg:mb-2.5 flex-wrap">
                   <span className="px-2 py-0.5 lg:px-2.5 lg:py-1 text-[10px] sm:text-[9px] lg:text-xs font-medium rounded-full bg-white/10 text-neutral-200 border border-white/10">Web Design</span>
-                  <span className="px-2 py-0.5 lg:px-2.5 lg:py-1 text-[10px] sm:text-[9px] lg:text-xs font-medium rounded-full bg-white/10 text-neutral-200 border border-white/10">SEO</span>
+                  <span className="px-2 py-0.5 lg:px-2.5 lg:py-1 text-[10px] sm:text-[9px] lg:text-xs font-medium rounded-full bg-white/10 text-neutral-200 border border-white/10">Development</span>
                 </div>
                 <p className="text-neutral-300 text-xs sm:text-[10px] lg:text-sm leading-relaxed mb-2.5 sm:mb-2 lg:mb-3 relative z-10">
-                  Car wash site. Drives bookings &amp; visibility.
+                Modern redesign with custom forms and full mobile optimization.
                 </p>
                 <div className="flex items-center gap-4 sm:gap-3 lg:gap-5 pt-3 sm:pt-2 lg:pt-3 border-t border-white/10">
-                  <div><p className="text-white text-sm sm:text-xs lg:text-base font-bold">3x</p><p className="text-neutral-400 text-[9px] sm:text-[8px] lg:text-[11px]">Traffic</p></div>
-                  <div><p className="text-white text-sm sm:text-xs lg:text-base font-bold">Top 5</p><p className="text-neutral-400 text-[9px] sm:text-[8px] lg:text-[11px]">Google</p></div>
+                  <div><p className="text-white text-sm sm:text-xs lg:text-base font-bold">100%</p><p className="text-neutral-400 text-[9px] sm:text-[8px] lg:text-[11px]">Responsive</p></div>
+                  <div><p className="text-white text-sm sm:text-xs lg:text-base font-bold">98</p><p className="text-neutral-400 text-[9px] sm:text-[8px] lg:text-[11px]">Speed Score</p></div>
                   <div><p className="text-white text-sm sm:text-xs lg:text-base font-bold">2 Mo</p><p className="text-neutral-400 text-[9px] sm:text-[8px] lg:text-[11px]">Delivered</p></div>
                 </div>
               </div>

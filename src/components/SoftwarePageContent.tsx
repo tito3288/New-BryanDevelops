@@ -18,7 +18,7 @@ const solutions = [
   {
     title: "Workflow Automation",
     description:
-      "Eliminate repetitive tasks. I build systems that handle data entry, follow-ups, notifications, and reporting — so your team can focus on what actually matters.",
+      "Eliminate repetitive tasks. I build systems that handle data entry, follow-ups, notifications, and reporting, so your team can focus on what actually matters.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -29,7 +29,7 @@ const solutions = [
   {
     title: "Custom Dashboards",
     description:
-      "See your entire business at a glance. Real-time data, key metrics, and insights — all in one clean interface tailored to how you operate.",
+      "See your entire business at a glance. Real-time data, key metrics, and insights, all in one clean interface tailored to how you operate.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -40,7 +40,7 @@ const solutions = [
   {
     title: "AI-Powered Tools",
     description:
-      "From chatbots that answer customer questions 24/7 to AI that responds to missed calls with a text — I build smart tools that work even when you're off the clock.",
+      "From chatbots that answer customer questions 24/7 to AI that responds to missed calls with a text. I build smart tools that work even when you're off the clock.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
@@ -73,7 +73,7 @@ const solutions = [
   {
     title: "Integrations & APIs",
     description:
-      "Connect the tools you already use. I build custom integrations that sync your CRM, email, payments, scheduling, and more — no more switching between apps.",
+      "Connect the tools you already use. I build custom integrations that sync your CRM, email, payments, scheduling, and more. No more switching between apps.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
@@ -93,9 +93,9 @@ const accentClasses: Record<string, { bg: string; text: string; border: string }
 
 const processSteps = [
   { num: "01", title: "Discovery", desc: "We talk about what's slowing your business down, what you wish was easier, and where you're losing time or money." },
-  { num: "02", title: "Blueprint", desc: "I map out exactly what the software will do, how it works, and what the end result looks like — in plain English, no jargon." },
+  { num: "02", title: "Blueprint", desc: "I map out exactly what the software will do, how it works, and what the end result looks like, in plain English, no jargon." },
   { num: "03", title: "Build & Test", desc: "I build it, you test it. You get access to a live version throughout development so there are zero surprises." },
-  { num: "04", title: "Launch & Support", desc: "We go live. I handle training, bug fixes, and ongoing updates — your software keeps getting better over time." },
+  { num: "04", title: "Launch & Support", desc: "We go live. I handle training, bug fixes, and ongoing updates. Your software keeps getting better over time." },
 ];
 
 export default function SoftwarePageContent() {
@@ -121,7 +121,7 @@ export default function SoftwarePageContent() {
             </h1>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
               Stop wasting hours on manual tasks. I build custom tools, automations, and platforms
-              for businesses in South Bend, Michiana, and across the country — so you can focus on growing instead of managing.
+              for businesses in South Bend, Michiana, and across the country, so you can focus on growing instead of managing.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
@@ -142,7 +142,7 @@ export default function SoftwarePageContent() {
           {/* Credibility line */}
           <FadeIn delay={200}>
             <p className="mt-12 text-neutral-600 text-sm">
-              Based in South Bend, Indiana — building with enterprise-grade tools trusted by companies like Google, Apple, and Meta.
+              Based in South Bend, Indiana. Building with enterprise-grade tools trusted by companies like Google, Apple, and Meta.
             </p>
           </FadeIn>
         </div>
@@ -233,7 +233,7 @@ export default function SoftwarePageContent() {
                 <p className="text-neutral-400 text-lg leading-relaxed mb-6">
                   A custom-built SEO workflow tool designed for agencies and businesses that take their
                   search rankings seriously. Already used by businesses in Indiana and beyond to run audits, track keyword positions, monitor competitors,
-                  and generate client-ready reports — all from one clean dashboard.
+                  and generate client-ready reports, all from one clean dashboard.
                 </p>
                 <ul className="flex flex-col gap-3 mb-8">
                   {["Automated site audits & health checks", "Keyword rank tracking over time", "Competitor analysis & monitoring", "One-click client reports"].map((item) => (
@@ -343,7 +343,7 @@ export default function SoftwarePageContent() {
                 </h3>
                 <p className="text-neutral-400 leading-relaxed mb-6">
                   One platform to add AI chatbots to your website, automatically text back missed calls,
-                  and collect more reviews — all managed from a single dashboard. Built for South Bend businesses
+                  and collect more reviews, all managed from a single dashboard. Built for South Bend businesses
                   and beyond that want to capture every lead and never miss an opportunity.
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -371,7 +371,7 @@ export default function SoftwarePageContent() {
                 How It Works
               </h2>
               <p className="text-neutral-400 text-lg max-w-xl mx-auto">
-                No tech jargon, no confusing proposals. Whether we meet locally in South Bend or work together remotely — here&apos;s how it goes.
+                No tech jargon, no confusing proposals. Whether we meet locally in South Bend or work together remotely, here&apos;s how it goes.
               </p>
             </div>
           </FadeIn>
@@ -405,7 +405,7 @@ export default function SoftwarePageContent() {
                   Mobile App Development
                 </h2>
                 <p className="text-neutral-500 text-base mt-2 max-w-lg">
-                  Need an app for your business or a personal idea brought to life? I design and develop iOS apps from concept to App Store — right here in South Bend, Indiana.
+                  Need an app for your business or a personal idea brought to life? I design and develop iOS apps from concept to App Store, right here in South Bend, Indiana.
                 </p>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/[0.06]">
@@ -422,21 +422,21 @@ export default function SoftwarePageContent() {
               {
                 name: "La Loteria",
                 icon: "/logos/laloteria.png",
-                desc: "The classic Mexican bingo game — caller mode, play against the computer, all 54 traditional cards with authentic riddles. Perfect for family game nights.",
+                desc: "The classic Mexican bingo game. Caller mode, play against the computer, all 54 traditional cards with authentic riddles. Perfect for family game nights.",
                 status: "Live",
                 url: "https://apps.apple.com/us/app/la-loteria-mexican-bingo/id6759211287",
               },
               {
                 name: "Remind Me - Reminders",
                 icon: "/logos/remindme.png",
-                desc: "Simple, beginner-friendly reminder app with location-based and date/time alerts. No sign-up required — just create and let it assist you when you need it.",
+                desc: "Simple, beginner-friendly reminder app with location-based and date/time alerts. No sign-up required. Just create and let it assist you when you need it.",
                 status: "Live",
                 url: "https://apps.apple.com/us/app/remind-me-reminders/id1617564386",
               },
               {
                 name: "Team Up - Teams",
                 icon: "/logos/teamup.png",
-                desc: "Stop wasting time picking teams. Type player names, choose the number of teams, and Team Up divides everyone evenly — no arguing over who's captain.",
+                desc: "Stop wasting time picking teams. Type player names, choose the number of teams, and Team Up divides everyone evenly. No arguing over who's captain.",
                 status: "Live",
                 url: "https://apps.apple.com/us/app/team-up-teams/id1618447199",
               },
@@ -477,7 +477,7 @@ export default function SoftwarePageContent() {
 
           <FadeIn delay={300}>
             <p className="mt-10 text-neutral-600 text-sm max-w-2xl">
-              Looking for an app development company near South Bend? Whether it&apos;s a customer-facing mobile app, an internal business tool, or a personal project — I handle the full process from design to deployment on the App Store.
+              Looking for an app development company near South Bend? Whether it&apos;s a customer-facing mobile app, an internal business tool, or a personal project, I handle the full process from design to deployment on the App Store.
             </p>
           </FadeIn>
         </div>
@@ -495,7 +495,7 @@ export default function SoftwarePageContent() {
                 Ready to Automate Your Business?
               </h2>
               <p className="text-neutral-400 text-lg mb-8">
-                Whether you&apos;re in South Bend, Mishawaka, Elkhart, or anywhere in the country — let&apos;s talk about what&apos;s slowing you down and how custom software can fix it.
+                Whether you&apos;re in South Bend, Mishawaka, Elkhart, or anywhere in the country. Let&apos;s talk about what&apos;s slowing you down and how custom software can fix it.
                 Free consultation, no strings attached.
               </p>
               <div className="flex flex-wrap justify-center gap-3">

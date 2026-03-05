@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "Is your web design service affordable?",
     answer:
-      "Yes — I'm affordable and work with all kinds of budgets. Every project is different, so we'll discuss your needs and find a solution that fits you. I offer free consultations so we can explore what's possible — no strings attached.",
+      "Yes, I'm affordable and work with all kinds of budgets. Every project is different, so we'll discuss your needs and find a solution that fits you. I offer free consultations so we can explore what's possible. No strings attached.",
   },
   {
     question: "How long does it take to build a website?",
@@ -37,12 +37,12 @@ const faqs = [
   {
     question: "Do I own my website after it's built?",
     answer:
-      "100%. You own everything — the design, the code, the domain, and all the content. I build on platforms and frameworks that give you full ownership and flexibility. You're never locked into a contract or proprietary system.",
+      "100%. You own everything: the design, the code, the domain, and all the content. I build on platforms and frameworks that give you full ownership and flexibility. You're never locked into a contract or proprietary system.",
   },
   {
-    question: "What makes Bryan Develops different from other web designers?",
+    question: "Why hire a freelance web developer vs. a web design agency?",
     answer:
-      "I combine design, development, SEO, and software engineering into one service. Most agencies outsource pieces of the work — I handle everything personally. That means faster turnaround, better communication, and a cohesive final product. Plus, every project includes SEO optimization from day one.",
+      "I combine design, development, SEO, and software engineering into one service. Most agencies outsource pieces of the work. I handle everything personally. That means faster turnaround, better communication, and a cohesive final product. Plus, every project includes SEO optimization from day one.",
   },
 ];
 
@@ -69,7 +69,7 @@ export default function FAQSection() {
               Frequently Asked Questions
             </h2>
             <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-              Everything you need to know about working with me. Can&apos;t find your answer?{" "}
+              Everything you need to know about working with me. Can&apos;t find your answer?{" "}<br></br>
               <a href="/contact" className="text-indigo-500 font-medium hover:text-indigo-600 transition-colors">
                 Get in touch
               </a>.

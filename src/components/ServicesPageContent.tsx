@@ -8,7 +8,7 @@ const services = [
   {
     title: "Web Development",
     href: "/services/web-development",
-    desc: "Affordable, professional websites built on the platform that fits your business — WordPress, Shopify, Squarespace, Wix, or custom code. Training included so you can manage it yourself.",
+    desc: "Affordable, professional websites built on the platform that fits your business: WordPress, Shopify, Squarespace, Wix, or custom code. Training included so you can manage it yourself.",
     accent: "indigo",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -21,7 +21,7 @@ const services = [
   {
     title: "Custom Software",
     href: "/services/software",
-    desc: "Workflow automation, AI chatbots, business dashboards, and custom platforms built to solve the problems slowing your business down. No jargon — just tools that work.",
+    desc: "Workflow automation, AI chatbots, business dashboards, and custom platforms built to solve the problems slowing your business down. No jargon, just tools that work.",
     accent: "emerald",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -85,7 +85,7 @@ export default function ServicesPageContent() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
           <FadeIn>
             <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
-              Services — South Bend, IN
+              Services, South Bend, IN
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.1] max-w-3xl mb-6">
               Everything Your Business Needs to{" "}
@@ -94,7 +94,7 @@ export default function ServicesPageContent() {
               </span>
             </h1>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl leading-relaxed">
-              From websites to custom software to SEO — I help businesses in South Bend,
+              From websites to custom software to SEO, I help businesses in South Bend,
               Fort Wayne, and across the country build a stronger online presence.
               Pick the service that fits, or reach out and we&apos;ll figure it out together.
             </p>
@@ -243,7 +243,7 @@ export default function ServicesPageContent() {
 
           <FadeIn delay={200}>
             <p className="text-center text-neutral-600 text-sm mt-8">
-              Don&apos;t see your city? No problem — most of my work is done remotely.{" "}
+              Don&apos;t see your city? No problem, most of my work is done remotely.{" "}
               <Link href="/contact" className="text-indigo-400 hover:underline underline-offset-4">
                 Let&apos;s talk.
               </Link>
@@ -264,7 +264,7 @@ export default function ServicesPageContent() {
               </h2>
               <p className="text-neutral-400 text-lg mb-8">
                 That&apos;s totally fine. Most clients come to me with a problem, not a solution.
-                Tell me what&apos;s going on and I&apos;ll recommend the best path forward — no pressure, no jargon.
+                Tell me what&apos;s going on and I&apos;ll recommend the best path forward. No pressure, no jargon.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 <Link

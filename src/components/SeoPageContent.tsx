@@ -8,7 +8,7 @@ const painPoints = [
   {
     question: "You're spending money on ads but not seeing real growth?",
     answer:
-      "Google Ads can bring traffic, but the moment you stop paying, it disappears. SEO builds something permanent — organic traffic that keeps coming whether you're spending on ads that week or not.",
+      "Google Ads can bring traffic, but the moment you stop paying, it disappears. SEO builds something permanent. Organic traffic that keeps coming whether you're spending on ads that week or not.",
   },
   {
     question: "You have a website but it doesn't show up when people search for your services?",
@@ -39,7 +39,7 @@ const services = [
   },
   {
     title: "On-Page Optimization",
-    desc: "Improving your existing pages — titles, headings, content, images — so Google understands what you offer and ranks you higher.",
+    desc: "Improving your existing pages (titles, headings, content, images) so Google understands what you offer and ranks you higher.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -67,7 +67,7 @@ const services = [
   },
   {
     title: "Technical SEO",
-    desc: "Site speed, mobile optimization, structured data, crawlability — the behind-the-scenes work that Google rewards with higher rankings.",
+    desc: "Site speed, mobile optimization, structured data, crawlability. The behind-the-scenes work that Google rewards with higher rankings.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
@@ -131,7 +131,7 @@ export default function SeoPageContent() {
             </h1>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
               SEO is the difference between renting traffic and owning it. I help businesses
-              in South Bend build organic visibility that grows every month — with transparent
+              in South Bend build organic visibility that grows every month, with transparent
               reporting so you always know what&apos;s working.
             </p>
             <div className="flex flex-wrap items-center gap-3">
@@ -149,14 +149,14 @@ export default function SeoPageContent() {
               </Link>
               <div className="hidden sm:flex items-center gap-2 ml-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20">
                 <span className="w-2 h-2 rounded-full bg-amber-400" />
-                <span className="text-amber-300 text-xs font-semibold">Month-to-month — no contracts</span>
+                <span className="text-amber-300 text-xs font-semibold">Month-to-month, no contracts</span>
               </div>
             </div>
           </FadeIn>
 
           <FadeIn delay={200}>
             <p className="mt-12 text-neutral-500 text-sm">
-              Based in South Bend, Indiana — helping Michiana businesses and clients nationwide get found on Google.
+              Based in South Bend, Indiana. Helping Michiana businesses and clients nationwide get found on Google.
             </p>
           </FadeIn>
         </div>
@@ -248,7 +248,7 @@ export default function SeoPageContent() {
 
           <FadeIn delay={300}>
             <p className="text-center text-neutral-500 text-sm mt-8 max-w-xl mx-auto">
-              Google Ads have their place — I can help with those too. But if you want traffic that
+              Google Ads have their place, and I can help with those too. But if you want traffic that
               doesn&apos;t disappear when you stop paying, SEO is the foundation you need.
             </p>
           </FadeIn>
@@ -266,7 +266,7 @@ export default function SeoPageContent() {
                 Does This Sound Like You?
               </h2>
               <p className="text-neutral-400 text-lg max-w-xl mx-auto">
-                If you&apos;re a business owner in South Bend dealing with any of these, you&apos;re not alone — and I can help.
+                If you&apos;re a business owner in South Bend dealing with any of these, you&apos;re not alone, and I can help.
               </p>
             </div>
           </FadeIn>
@@ -374,7 +374,7 @@ export default function SeoPageContent() {
                   <div className="w-3 h-3 rounded-full bg-red-400/60" />
                   <div className="w-3 h-3 rounded-full bg-yellow-400/60" />
                   <div className="w-3 h-3 rounded-full bg-green-400/60" />
-                  <span className="ml-3 text-neutral-500 text-xs">Monthly SEO Report — January 2026</span>
+                  <span className="ml-3 text-neutral-500 text-xs">Monthly SEO Report, January 2026</span>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center justify-between px-4 py-3 rounded-xl bg-white/[0.03] border border-white/[0.04]">
@@ -447,14 +447,14 @@ export default function SeoPageContent() {
                 </h2>
 
                 <p className="text-neutral-400 text-base sm:text-lg leading-relaxed mb-6 max-w-2xl">
-                  Not every business is ready to hire an SEO expert — and that&apos;s okay.
+                  Not every business is ready to hire an SEO expert, and that&apos;s okay.
                   That&apos;s why I created <span className="text-emerald-400 font-semibold">simplSEO</span>,
                   an affordable SEO software that gives you the same insights I use: site audits,
                   keyword tracking, ranking reports, and actionable recommendations.
                 </p>
 
                 <p className="text-neutral-300 font-medium mb-8">
-                  A fraction of the cost of hiring someone — with the same data driving your decisions.
+                  A fraction of the cost of hiring someone, with the same data driving your decisions.
                 </p>
 
                 <div className="flex flex-wrap gap-3 mb-8">
@@ -543,8 +543,8 @@ export default function SeoPageContent() {
                 Ready to Get Found on Google?
               </h2>
               <p className="text-neutral-400 text-lg mb-8">
-                Whether you&apos;re in South Bend, Mishawaka, Elkhart, Fort Wayne, or anywhere in the country —
-                let&apos;s build an SEO strategy that brings you consistent organic traffic.
+                Whether you&apos;re in South Bend, Mishawaka, Elkhart, Fort Wayne, or anywhere in the country.
+                Let&apos;s build an SEO strategy that brings you consistent organic traffic.
                 Free audit, no strings attached.
               </p>
               <div className="flex flex-wrap justify-center gap-3">

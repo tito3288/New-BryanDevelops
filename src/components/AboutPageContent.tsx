@@ -290,7 +290,7 @@ export default function AboutPageContent() {
                   </p>
                 </div>
                 <Link
-                  href="/projects"
+                  href="https://bryanarambula.com"
                   className="inline-flex items-center gap-2 mt-6 text-indigo-600 font-semibold text-sm hover:text-indigo-700 transition-colors"
                 >
                   View My Portfolio
@@ -336,7 +336,7 @@ export default function AboutPageContent() {
                 Ready to Build Something Great?
               </h2>
               <p className="text-neutral-500 text-lg mb-8">
-                Whether you need a website, custom software, or an SEO strategy &mdash;
+                Whether you need a website, custom software, or an SEO strategy.
                 I am here to help. Based in South Bend, serving Mishawaka, Elkhart,
                 Fort Wayne, and clients nationwide. Free consultation, no strings attached.
               </p>
