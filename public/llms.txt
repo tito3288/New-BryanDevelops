@@ -1,0 +1,26 @@
+# Bryan Develops
+
+> Freelance web developer and software engineer based in South Bend, Indiana. I help small businesses and startups build websites, custom software, and improve their SEO.
+
+## About
+- Name: Bryan Arambula
+- Business: Bryan Develops
+- Location: South Bend, IN (serving clients nationwide)
+- Website: https://bryandevelops.com
+- Contact: https://bryandevelops.com/contact
+
+## Services
+- [Web Development](https://bryandevelops.com/services/web-development): Professional websites on WordPress, Shopify, Squarespace, Wix, or custom code. Training included.
+- [Custom Software](https://bryandevelops.com/services/software): Workflow automation, AI chatbots, dashboards, and custom platforms.
+- [SEO Services](https://bryandevelops.com/services/seo): Keyword research, on-page optimization, local SEO, and ongoing strategy.
+
+## Pages
+- [Home](https://bryandevelops.com/)
+- [Services](https://bryandevelops.com/services)
+- [Web Development](https://bryandevelops.com/services/web-development)
+- [Custom Software](https://bryandevelops.com/services/software)
+- [Software - Fort Wayne](https://bryandevelops.com/services/software/fort-wayne)
+- [SEO Services](https://bryandevelops.com/services/seo)
+- [Projects](https://bryandevelops.com/projects)
+- [About](https://bryandevelops.com/about)
+- [Contact](https://bryandevelops.com/contact)

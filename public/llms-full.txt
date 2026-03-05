@@ -1,0 +1,82 @@
+# Bryan Develops - Full Documentation
+
+> Freelance web developer and software engineer based in South Bend, Indiana. I help small businesses and startups build websites, custom software, and improve their SEO. I work with clients locally in the Michiana area and remotely across the country.
+
+## About Bryan Arambula
+Bryan Arambula is a freelance developer operating as Bryan Develops out of South Bend, Indiana. He works directly with small businesses, startups, and entrepreneurs to build digital tools that solve real problems. No agencies, no jargon, just straightforward work with clear communication. Clients own everything: the design, the code, and the content.
+
+## Services
+
+### Web Development
+Professional websites built on the platform that fits the business: WordPress, Shopify, Squarespace, Wix, or fully custom code. Every site is mobile-friendly, SEO-ready, and comes with training so the client can manage it themselves. Bryan handles the full process from strategy through launch and provides ongoing support.
+
+URL: https://bryandevelops.com/services/web-development
+
+Key offerings:
+- Platform-flexible: WordPress, Shopify, Squarespace, Wix, or custom
+- Mobile-responsive design
+- SEO foundations built in
+- Client training included
+- Ongoing support available
+
+### Custom Software
+Workflow automation, AI-powered chatbots, business dashboards, and custom platforms built to solve specific business problems. Bryan builds tools that replace manual processes, connect disconnected systems, and give business owners better visibility into their operations.
+
+URL: https://bryandevelops.com/services/software
+
+Key offerings:
+- Workflow automation (reduce manual, repetitive tasks)
+- AI chatbots and smart assistants
+- Custom business dashboards and reporting
+- App development (web and mobile)
+- System integrations
+
+Location-specific page:
+- Fort Wayne, IN: https://bryandevelops.com/services/software/fort-wayne
+
+### SEO Services
+Search engine optimization to help businesses get found on Google by the people searching for what they offer. Services include keyword research, on-page optimization, local SEO, technical audits, and ongoing strategy to grow organic traffic.
+
+URL: https://bryandevelops.com/services/seo
+
+Key offerings:
+- Keyword research and strategy
+- On-page optimization (titles, headings, content, images)
+- Local SEO and Google Business Profile optimization
+- Technical SEO audits
+- Monthly reporting and analytics
+- Content strategy guidance
+
+## Process
+Bryan follows a four-step process for every project:
+1. Strategy: Understand the business, goals, and audience. Define what success looks like, in plain English.
+2. Design: Create mockups and prototypes. The client sees and approves everything before any code is written.
+3. Develop: Build the solution with clean, modern technology. Regular check-ins throughout.
+4. Support: Launch, train the client, and provide ongoing support. The software keeps working long after handoff.
+
+## Apps and Side Projects
+Bryan also builds and publishes apps, including:
+- simplSEO: An SEO management platform for tracking keywords, monitoring rankings, and generating reports.
+- Other projects viewable at: https://bryandevelops.com/projects
+
+## Areas Served
+- Primary: South Bend, IN (headquarters)
+- Michiana area: Mishawaka, Elkhart, Granger, IN
+- Fort Wayne, IN (dedicated software page)
+- Remote clients nationwide
+
+## Contact
+- Website: https://bryandevelops.com
+- Contact page: https://bryandevelops.com/contact
+- Free consultations available
+
+## Site Map
+- Home: https://bryandevelops.com/
+- Services: https://bryandevelops.com/services
+- Web Development: https://bryandevelops.com/services/web-development
+- Custom Software: https://bryandevelops.com/services/software
+- Software - Fort Wayne: https://bryandevelops.com/services/software/fort-wayne
+- SEO Services: https://bryandevelops.com/services/seo
+- Projects: https://bryandevelops.com/projects
+- About: https://bryandevelops.com/about
+- Contact: https://bryandevelops.com/contact
