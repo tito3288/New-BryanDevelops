@@ -120,15 +120,15 @@ export default function SeoPageContent() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
-            <p className="text-amber-400 text-sm font-semibold tracking-widest uppercase mb-4">
+            <h1 className="text-amber-400 text-sm font-semibold tracking-widest uppercase mb-4">
               SEO Services — Indiana
-            </p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
+            </h1>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
               Stop Paying for Clicks.{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-400">
                 Start Owning Your Traffic.
               </span>
-            </h1>
+            </h2>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
               SEO is the difference between renting traffic and owning it. I help businesses
               build organic visibility that grows every month, with transparent

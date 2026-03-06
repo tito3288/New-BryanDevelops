@@ -3,9 +3,9 @@ import SouthBendSeoContent from "@/components/SouthBendSeoContent";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "SEO Services in South Bend, IN | Bryan Develops",
+  title: "Small Business SEO Services in South Bend, IN | Bryan Develops",
   description:
-    "Monthly SEO management for South Bend, Indiana businesses. Local SEO, keyword strategy, on-page optimization, and transparent reporting. Get more website traffic without relying on ads. Or try simplSEO, the affordable DIY alternative.",
+    "Monthly SEO management for small businesses in South Bend, Indiana. Local SEO, keyword strategy, on-page optimization, and transparent reporting. Get more website traffic without relying on ads. Or try simplSEO, the affordable DIY alternative.",
   keywords: [
     "SEO services South Bend",
     "SEO company South Bend Indiana",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     "affordable SEO South Bend Indiana",
   ],
   openGraph: {
-    title: "SEO Services in South Bend | Bryan Develops",
+    title: "Small Business SEO Services in South Bend | Bryan Develops",
     description:
-      "Monthly SEO management for South Bend businesses. Local SEO, keyword strategy, and transparent reporting to get more website traffic.",
+      "Monthly SEO management for small businesses in South Bend. Local SEO, keyword strategy, and transparent reporting to get more website traffic.",
     type: "website",
   },
 };

@@ -3,9 +3,9 @@ import NilesSeoContent from "@/components/NilesSeoContent";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "SEO Services in Niles, MI | Bryan Develops",
+  title: "Small Business SEO Services in Niles, MI | Bryan Develops",
   description:
-    "Monthly SEO management for Niles, Michigan businesses. Local SEO, keyword strategy, on-page optimization, and transparent reporting. Get more website traffic without relying on ads. Or try simplSEO, the affordable DIY alternative.",
+    "Monthly SEO management for small businesses in Niles, Michigan. Local SEO, keyword strategy, on-page optimization, and transparent reporting. Get more website traffic without relying on ads. Or try simplSEO, the affordable DIY alternative.",
   keywords: [
     "SEO services Niles",
     "SEO company Niles Michigan",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     "affordable SEO services Berrien County",
   ],
   openGraph: {
-    title: "SEO Services in Niles | Bryan Develops",
+    title: "Small Business SEO Services in Niles | Bryan Develops",
     description:
-      "Monthly SEO management for Niles businesses. Local SEO, keyword strategy, and transparent reporting to get more website traffic.",
+      "Monthly SEO management for small businesses in Niles. Local SEO, keyword strategy, and transparent reporting to get more website traffic.",
     type: "website",
   },
 };

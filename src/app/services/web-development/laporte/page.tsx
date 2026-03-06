@@ -4,9 +4,9 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title:
-    "Web Design & Development in LaPorte, IN | Bryan Develops",
+    "Small Business Web Design & Development in LaPorte, IN | Bryan Develops",
   description:
-    "Professional web design and development for LaPorte, Indiana businesses. WordPress, Shopify, Squarespace, Wix, or custom-built websites. Mobile-friendly, SEO-ready, and built to convert. Free consultation.",
+    "Professional web design and development for small businesses in LaPorte, Indiana. WordPress, Shopify, Squarespace, Wix, or custom-built websites. Mobile-friendly, SEO-ready, and built to convert. Free consultation.",
   keywords: [
     "web design LaPorte",
     "web developer LaPorte Indiana",
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     "affordable website developer LaPorte County",
   ],
   openGraph: {
-    title: "Web Design & Development in LaPorte | Bryan Develops",
+    title: "Small Business Web Design & Development in LaPorte | Bryan Develops",
     description:
-      "Professional websites for LaPorte businesses. WordPress, Shopify, Squarespace, Wix, or custom-built. Mobile-friendly, SEO-ready, and affordable.",
+      "Professional websites for small businesses in LaPorte. WordPress, Shopify, Squarespace, Wix, or custom-built. Mobile-friendly, SEO-ready, and affordable.",
     type: "website",
   },
 };

@@ -120,16 +120,16 @@ export default function WarsawSeoContent() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
-            <p className="text-purple-400 text-sm font-semibold tracking-widest uppercase mb-4">
+            <h1 className="text-purple-400 text-sm font-semibold tracking-widest uppercase mb-4">
               SEO Services — Warsaw, IN
-            </p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
+            </h1>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
               Get More Website Traffic for Your{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400">
                 Warsaw
               </span>{" "}
               Business
-            </h1>
+            </h2>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
               Stop relying on ads to get found online. SEO helps Warsaw businesses show up on Google
               organically, so customers find you when they&apos;re searching for exactly what you offer.

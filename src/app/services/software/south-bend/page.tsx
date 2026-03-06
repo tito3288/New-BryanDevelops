@@ -3,9 +3,9 @@ import SouthBendSoftwareContent from "@/components/SouthBendSoftwareContent";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Custom Software & App Development in South Bend, IN | Bryan Develops",
+  title: "Small Business Software & App Development in South Bend, IN | Bryan Develops",
   description:
-    "Custom software development and app development in South Bend, Indiana. Workflow automation, AI chatbots, business dashboards, and mobile apps. Based locally in South Bend. Free consultation.",
+    "Custom software development and app development for small businesses in South Bend, Indiana. Workflow automation, AI chatbots, business dashboards, and mobile apps. Based locally in South Bend. Free consultation.",
   keywords: [
     "custom software South Bend",
     "software developer South Bend Indiana",
@@ -22,11 +22,12 @@ export const metadata: Metadata = {
     "app developer near Notre Dame",
     "custom software Mishawaka",
     "software development company South Bend",
+    "small business software South Bend",
   ],
   openGraph: {
-    title: "Custom Software & App Development in South Bend | Bryan Develops",
+    title: "Small Business Software & App Development in South Bend | Bryan Develops",
     description:
-      "Custom software, mobile apps, AI tools, and business automation for South Bend businesses. Based locally.",
+      "Custom software, mobile apps, AI tools, and business automation for small businesses in South Bend. Based locally.",
     type: "website",
   },
 };

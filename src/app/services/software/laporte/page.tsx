@@ -4,9 +4,9 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title:
-    "Custom Software & App Development in LaPorte, IN | Bryan Develops",
+    "Small Business Software & App Development in LaPorte, IN | Bryan Develops",
   description:
-    "Custom software development and app development in LaPorte, Indiana. Workflow automation, AI chatbots, business dashboards, and mobile apps built for LaPorte businesses. Free consultation.",
+    "Custom software development and app development for small businesses in LaPorte, Indiana. Workflow automation, AI chatbots, business dashboards, and mobile apps. Free consultation.",
   keywords: [
     "custom software development LaPorte",
     "software developer LaPorte Indiana",
@@ -20,11 +20,12 @@ export const metadata: Metadata = {
     "software developer near me",
     "app development company near me",
     "web app developer LaPorte",
+    "small business software LaPorte",
   ],
   openGraph: {
-    title: "Custom Software & App Development in LaPorte | Bryan Develops",
+    title: "Small Business Software & App Development in LaPorte | Bryan Develops",
     description:
-      "Custom software, mobile apps, AI tools, and business automation for companies in LaPorte and northwest Indiana.",
+      "Custom software, mobile apps, AI tools, and business automation for small businesses in LaPorte and northwest Indiana.",
     type: "website",
   },
 };

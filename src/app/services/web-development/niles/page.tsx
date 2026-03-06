@@ -4,9 +4,9 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title:
-    "Web Design & Development in Niles, MI | Bryan Develops",
+    "Small Business Web Design & Development in Niles, MI | Bryan Develops",
   description:
-    "Professional web design and development for Niles, Michigan businesses. WordPress, Shopify, Squarespace, Wix, or custom-built websites. Mobile-friendly, SEO-ready, and built to convert. Free consultation.",
+    "Professional web design and development for small businesses in Niles, Michigan. WordPress, Shopify, Squarespace, Wix, or custom-built websites. Mobile-friendly, SEO-ready, and built to convert. Free consultation.",
   keywords: [
     "web design Niles",
     "web developer Niles Michigan",
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     "affordable website developer Berrien County",
   ],
   openGraph: {
-    title: "Web Design & Development in Niles | Bryan Develops",
+    title: "Small Business Web Design & Development in Niles | Bryan Develops",
     description:
-      "Professional websites for Niles businesses. WordPress, Shopify, Squarespace, Wix, or custom-built. Mobile-friendly, SEO-ready, and affordable.",
+      "Professional websites for small businesses in Niles. WordPress, Shopify, Squarespace, Wix, or custom-built. Mobile-friendly, SEO-ready, and affordable.",
     type: "website",
   },
 };

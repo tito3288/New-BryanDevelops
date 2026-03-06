@@ -3,9 +3,9 @@ import NilesSoftwareContent from "@/components/NilesSoftwareContent";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Custom Software & App Development in Niles, MI | Bryan Develops",
+  title: "Small Business Software & App Development in Niles, MI | Bryan Develops",
   description:
-    "Custom software development for Niles, Michigan businesses. Workflow automation, AI chatbots, business dashboards, and app development. Built for manufacturers, local businesses, and startups in Berrien County.",
+    "Custom software development for small businesses in Niles, Michigan. Workflow automation, AI chatbots, business dashboards, and app development. Built for manufacturers, local businesses, and startups in Berrien County.",
   keywords: [
     "custom software Niles",
     "software developer Niles Michigan",
@@ -22,11 +22,12 @@ export const metadata: Metadata = {
     "CRM development Niles",
     "SaaS developer Niles",
     "affordable software development Berrien County",
+    "small business software Niles",
   ],
   openGraph: {
-    title: "Custom Software & App Development in Niles | Bryan Develops",
+    title: "Small Business Software & App Development in Niles | Bryan Develops",
     description:
-      "Custom software, automation, AI chatbots, and app development for Niles businesses. Built for your workflows, your team, and your goals.",
+      "Custom software, automation, AI chatbots, and app development for small businesses in Niles. Built for your workflows, your team, and your goals.",
     type: "website",
   },
 };

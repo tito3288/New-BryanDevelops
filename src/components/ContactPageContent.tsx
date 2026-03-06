@@ -23,10 +23,28 @@ export default function ContactPageContent() {
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSending(true);
+    setError("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) throw new Error("Failed to send");
+      setSubmitted(true);
+    } catch {
+      setError("Something went wrong. Please try again or email me directly.");
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -127,7 +145,7 @@ export default function ContactPageContent() {
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-2">Message Sent!</h3>
                   <p className="text-neutral-400 max-w-sm">
-                    Thanks for reaching out. I&apos;ll get back to you within 24 hours.
+                    Thanks for reaching out! <br></br> I&apos;ll get back to you within 24 hours (:
                   </p>
                   <button
                     onClick={() => {
@@ -247,12 +265,17 @@ export default function ContactPageContent() {
                     />
                   </div>
 
+                  {error && (
+                    <p className="text-red-400 text-sm text-center">{error}</p>
+                  )}
+
                   {/* Submit */}
                   <button
                     type="submit"
-                    className="w-full px-7 py-3.5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold text-sm tracking-wide hover:from-indigo-600 hover:to-purple-600 transition-all active:scale-[0.98] shadow-[0_4px_20px_rgba(99,102,241,0.3)]"
+                    disabled={sending}
+                    className="w-full px-7 py-3.5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold text-sm tracking-wide hover:from-indigo-600 hover:to-purple-600 transition-all active:scale-[0.98] shadow-[0_4px_20px_rgba(99,102,241,0.3)] disabled:opacity-60 disabled:pointer-events-none"
                   >
-                    Send Message
+                    {sending ? "Sending..." : "Send Message"}
                   </button>
 
                   <p className="text-neutral-600 text-xs text-center">

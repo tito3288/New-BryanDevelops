@@ -3,9 +3,9 @@ import SouthBendWebDevContent from "@/components/SouthBendWebDevContent";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Web Design & Development in South Bend, IN | Bryan Develops",
+  title: "Small Business Web Design & Development in South Bend, IN | Bryan Develops",
   description:
-    "Professional web design and development for South Bend, Indiana businesses. WordPress, Shopify, Squarespace, Wix, or custom-built websites. Based locally in South Bend, training included. Free consultation.",
+    "Professional web design and development for small businesses in South Bend, Indiana. WordPress, Shopify, Squarespace, Wix, or custom-built websites. Based locally in South Bend, training included. Free consultation.",
   keywords: [
     "web design South Bend",
     "web developer South Bend IN",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     "local web developer South Bend",
   ],
   openGraph: {
-    title: "Web Design & Development in South Bend | Bryan Develops",
+    title: "Small Business Web Design & Development in South Bend | Bryan Develops",
     description:
-      "Professional websites for South Bend businesses. WordPress, Shopify, Squarespace, Wix, or custom-built. Based locally, training included.",
+      "Professional websites for small businesses in South Bend. WordPress, Shopify, Squarespace, Wix, or custom-built. Based locally, training included.",
     type: "website",
   },
 };

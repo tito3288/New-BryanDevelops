@@ -110,16 +110,16 @@ export default function WarsawWebDevContent() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
-            <p className="text-indigo-600 text-sm font-semibold tracking-widest uppercase mb-4">
+            <h1 className="text-indigo-600 text-sm font-semibold tracking-widest uppercase mb-4">
               Web Design & Development — Warsaw, IN
-            </p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-900 tracking-tight leading-[1.1] max-w-4xl mb-6">
+            </h1>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-900 tracking-tight leading-[1.1] max-w-4xl mb-6">
               Professional Websites for{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
                 Warsaw
               </span>{" "}
               Businesses
-            </h1>
+            </h2>
             <p className="text-neutral-500 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
               Affordable, modern websites built for small businesses in Warsaw, Kosciusko County, and north-central Indiana.
               WordPress, Shopify, Squarespace, Wix, or custom code, whatever platform fits your business best.{" "}

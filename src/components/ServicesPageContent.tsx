@@ -106,15 +106,15 @@ export default function ServicesPageContent() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
           <FadeIn>
-            <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
+            <h1 className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
               Services — South Bend, IN
-            </p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.1] max-w-3xl mb-6">
+            </h1>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.1] max-w-3xl mb-6">
               Everything Your Business Needs to{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
                 Grow Online.
               </span>
-            </h1>
+            </h2>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl leading-relaxed">
               From websites to custom software to SEO, I help businesses in South Bend,
               Fort Wayne, and across the country build a stronger online presence.
