@@ -4,30 +4,30 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title:
-    "Web Design & Development in South Bend, IN | Bryan Develops — Affordable Websites",
+    "Web Design & Development | Bryan Develops — Affordable Websites for Small Businesses",
   description:
-    "Affordable web design and development in South Bend, Indiana. WordPress, Shopify, Squarespace, Wix, or custom-built — Bryan Develops creates websites for small businesses in Michiana and nationwide. Training included.",
+    "Affordable web design and development for small businesses. WordPress, Shopify, Squarespace, Wix, or custom-built. Training included. Serving Indiana and nationwide.",
   keywords: [
-    "web design South Bend",
-    "web developer South Bend Indiana",
-    "affordable web design South Bend",
-    "WordPress developer South Bend",
-    "Shopify developer South Bend",
+    "affordable web design",
+    "web developer for small business",
+    "affordable web design Indiana",
+    "WordPress developer for hire",
+    "Shopify developer",
     "Squarespace developer near me",
-    "small business website South Bend",
-    "website design Michiana",
+    "small business website design",
+    "website design Indiana",
     "affordable website developer Indiana",
     "web design near me",
-    "e-commerce website South Bend",
-    "Wix developer South Bend",
-    "website redesign South Bend",
+    "e-commerce website design",
+    "Wix developer",
+    "website redesign services",
     "cheap website design Indiana",
     "web developer near me",
   ],
   openGraph: {
-    title: "Affordable Web Design & Development in South Bend | Bryan Develops",
+    title: "Affordable Web Design & Development | Bryan Develops",
     description:
-      "Custom websites on WordPress, Shopify, Squarespace, Wix, or built from scratch. Affordable web design for small businesses in South Bend and beyond.",
+      "Custom websites on WordPress, Shopify, Squarespace, Wix, or built from scratch. Affordable web design for small businesses and beyond.",
     type: "website",
   },
 };
@@ -37,7 +37,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Bryan Develops — Web Design & Development",
   description:
-    "Affordable web design and development for small businesses in South Bend, Mishawaka, Elkhart, Fort Wayne, and nationwide. WordPress, Shopify, Squarespace, Wix, and custom-coded websites with training included.",
+    "Affordable web design and development for small businesses in Indiana and nationwide. WordPress, Shopify, Squarespace, Wix, and custom-coded websites with training included.",
   url: "https://bryandevelops.com/services/web-development",
   areaServed: [
     { "@type": "City", name: "South Bend", addressRegion: "IN" },

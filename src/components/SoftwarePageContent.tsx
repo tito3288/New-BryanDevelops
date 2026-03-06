@@ -111,7 +111,7 @@ export default function SoftwarePageContent() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
             <p className="text-emerald-400 text-sm font-semibold tracking-widest uppercase mb-4">
-              Custom Software Development — South Bend, IN
+              Custom Software Development — Indiana
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
               Software That Runs Your Business{" "}
@@ -121,7 +121,7 @@ export default function SoftwarePageContent() {
             </h1>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
               Stop wasting hours on manual tasks. I build custom tools, automations, and platforms
-              for businesses in South Bend, Michiana, and across the country, so you can focus on growing instead of managing.
+              for businesses in Indiana and across the country, so you can focus on growing instead of managing.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
@@ -142,7 +142,7 @@ export default function SoftwarePageContent() {
           {/* Credibility line */}
           <FadeIn delay={200}>
             <p className="mt-12 text-neutral-600 text-sm">
-              Based in South Bend, Indiana. Building with enterprise-grade tools trusted by companies like Google, Apple, and Meta.
+              Based in Indiana. Building with enterprise-grade tools trusted by companies like Google, Apple, and Meta.
             </p>
           </FadeIn>
         </div>
@@ -157,7 +157,7 @@ export default function SoftwarePageContent() {
                 Sound Familiar?
               </h2>
               <p className="text-neutral-400 text-lg max-w-xl mx-auto">
-                Business owners in South Bend and beyond deal with these every day. Custom software can fix all of them.
+                Business owners deal with these every day. Custom software can fix all of them.
               </p>
             </div>
           </FadeIn>
@@ -191,7 +191,7 @@ export default function SoftwarePageContent() {
                 What I Build
               </h2>
               <p className="text-neutral-400 text-lg max-w-2xl">
-                Every business is different. Whether you&apos;re a local shop in Mishawaka or a growing company in Elkhart, I build software tailored to your specific workflows and goals.
+                Every business is different. Whether you&apos;re a local shop or a growing company, I build software tailored to your specific workflows and goals.
               </p>
             </div>
           </FadeIn>
@@ -343,7 +343,7 @@ export default function SoftwarePageContent() {
                 </h3>
                 <p className="text-neutral-400 leading-relaxed mb-6">
                   One platform to add AI chatbots to your website, automatically text back missed calls,
-                  and collect more reviews, all managed from a single dashboard. Built for South Bend businesses
+                  and collect more reviews, all managed from a single dashboard. Built for businesses in Indiana
                   and beyond that want to capture every lead and never miss an opportunity.
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -371,7 +371,7 @@ export default function SoftwarePageContent() {
                 How It Works
               </h2>
               <p className="text-neutral-400 text-lg max-w-xl mx-auto">
-                No tech jargon, no confusing proposals. Whether we meet locally in South Bend or work together remotely, here&apos;s how it goes.
+                No tech jargon, no confusing proposals. Whether we meet locally in Indiana or work together remotely, here&apos;s how it goes.
               </p>
             </div>
           </FadeIn>
@@ -399,13 +399,13 @@ export default function SoftwarePageContent() {
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-12">
               <div>
                 <p className="text-neutral-500 text-sm font-semibold tracking-widest uppercase mb-3">
-                  App Development in South Bend
+                  App Development
                 </p>
                 <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
                   Mobile App Development
                 </h2>
                 <p className="text-neutral-500 text-base mt-2 max-w-lg">
-                  Need an app for your business or a personal idea brought to life? I design and develop iOS apps from concept to App Store, right here in South Bend, Indiana.
+                  Need an app for your business or a personal idea brought to life? I design and develop iOS apps from concept to App Store, right here in Indiana.
                 </p>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/[0.06]">
@@ -477,7 +477,7 @@ export default function SoftwarePageContent() {
 
           <FadeIn delay={300}>
             <p className="mt-10 text-neutral-600 text-sm max-w-2xl">
-              Looking for an app development company near South Bend? Whether it&apos;s a customer-facing mobile app, an internal business tool, or a personal project, I handle the full process from design to deployment on the App Store.
+              Looking for an app development company in Indiana? Whether it&apos;s a customer-facing mobile app, an internal business tool, or a personal project, I handle the full process from design to deployment on the App Store.
             </p>
           </FadeIn>
         </div>
@@ -489,13 +489,13 @@ export default function SoftwarePageContent() {
           <FadeIn>
             <div className="text-center max-w-2xl mx-auto">
               <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
-                Serving South Bend &amp; Beyond
+                Serving Indiana &amp; Beyond
               </p>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight mb-4">
                 Ready to Automate Your Business?
               </h2>
               <p className="text-neutral-400 text-lg mb-8">
-                Whether you&apos;re in South Bend, Mishawaka, Elkhart, or anywhere in the country. Let&apos;s talk about what&apos;s slowing you down and how custom software can fix it.
+                Whether you&apos;re in Indiana or anywhere in the country. Let&apos;s talk about what&apos;s slowing you down and how custom software can fix it.
                 Free consultation, no strings attached.
               </p>
               <div className="flex flex-wrap justify-center gap-3">

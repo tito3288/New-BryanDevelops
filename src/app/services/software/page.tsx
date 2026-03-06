@@ -4,31 +4,31 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title:
-    "Custom Software & App Development in South Bend, IN | Bryan Develops — Automation, AI & Business Tools",
+    "Custom Software & App Development | Bryan Develops — Automation, AI & Business Tools",
   description:
-    "Custom software and app development in South Bend, Indiana. Bryan Develops builds workflow automation, AI chatbots, mobile apps, business dashboards, and custom platforms for businesses in Michiana and nationwide. Free consultation.",
+    "Custom software and app development for businesses. Workflow automation, AI chatbots, mobile apps, business dashboards, and custom platforms. Serving Indiana and nationwide. Free consultation.",
   keywords: [
-    "custom software development South Bend",
-    "software developer South Bend Indiana",
+    "custom software development",
+    "software developer for small business",
     "app development company near me",
-    "app developer South Bend Indiana",
-    "mobile app development South Bend",
+    "app developer for hire",
+    "mobile app development",
     "iOS app developer Indiana",
-    "business automation South Bend",
-    "AI chatbot South Bend",
-    "custom software Michiana",
+    "business automation software",
+    "AI chatbot for business",
+    "custom software Indiana",
     "workflow automation Indiana",
-    "South Bend software company",
+    "software development company",
     "custom business tools",
-    "SaaS development South Bend",
+    "SaaS development",
     "software developer near me",
     "app development company Indiana",
   ],
   openGraph: {
     title:
-      "Custom Software & App Development in South Bend | Bryan Develops",
+      "Custom Software & App Development | Bryan Develops",
     description:
-      "Custom software, mobile apps, AI chatbots, dashboards, and business platforms built for companies in South Bend and across the country.",
+      "Custom software, mobile apps, AI chatbots, dashboards, and business platforms built for companies across the country.",
     type: "website",
   },
 };
@@ -38,7 +38,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Bryan Develops — Custom Software & App Development",
   description:
-    "Custom software development, mobile app development, workflow automation, AI tools, and business platforms for companies in South Bend, Mishawaka, Elkhart, and nationwide.",
+    "Custom software development, mobile app development, workflow automation, AI tools, and business platforms for companies in Indiana and nationwide.",
   url: "https://bryandevelops.com/services/software",
   areaServed: [
     { "@type": "City", name: "South Bend", addressRegion: "IN" },

@@ -48,7 +48,7 @@ const services = [
   },
   {
     title: "Local SEO",
-    desc: "Google Business Profile optimization, local directories, and map pack strategy so people in South Bend and nearby cities find you first.",
+    desc: "Google Business Profile optimization, local directories, and map pack strategy so people in your area find you first.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -121,7 +121,7 @@ export default function SeoPageContent() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
             <p className="text-amber-400 text-sm font-semibold tracking-widest uppercase mb-4">
-              SEO Services — South Bend, IN
+              SEO Services — Indiana
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
               Stop Paying for Clicks.{" "}
@@ -131,7 +131,7 @@ export default function SeoPageContent() {
             </h1>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
               SEO is the difference between renting traffic and owning it. I help businesses
-              in South Bend build organic visibility that grows every month, with transparent
+              build organic visibility that grows every month, with transparent
               reporting so you always know what&apos;s working.
             </p>
             <div className="flex flex-wrap items-center gap-3">
@@ -156,7 +156,7 @@ export default function SeoPageContent() {
 
           <FadeIn delay={200}>
             <p className="mt-12 text-neutral-500 text-sm">
-              Based in South Bend, Indiana. Helping Michiana businesses and clients nationwide get found on Google.
+              Based in Indiana. Helping businesses locally and nationwide get found on Google.
             </p>
           </FadeIn>
         </div>
@@ -266,7 +266,7 @@ export default function SeoPageContent() {
                 Does This Sound Like You?
               </h2>
               <p className="text-neutral-400 text-lg max-w-xl mx-auto">
-                If you&apos;re a business owner in South Bend dealing with any of these, you&apos;re not alone, and I can help.
+                If you&apos;re a business owner dealing with any of these, you&apos;re not alone, and I can help.
               </p>
             </div>
           </FadeIn>
@@ -537,13 +537,13 @@ export default function SeoPageContent() {
           <FadeIn>
             <div className="text-center max-w-2xl mx-auto">
               <p className="text-amber-400 text-sm font-semibold tracking-widest uppercase mb-4">
-                Serving South Bend &amp; Beyond
+                Serving Indiana &amp; Beyond
               </p>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight mb-4">
                 Ready to Get Found on Google?
               </h2>
               <p className="text-neutral-400 text-lg mb-8">
-                Whether you&apos;re in South Bend, Mishawaka, Elkhart, Fort Wayne, or anywhere in the country.
+                Whether you&apos;re in Indiana or anywhere in the country.
                 Let&apos;s build an SEO strategy that brings you consistent organic traffic.
                 Free audit, no strings attached.
               </p>

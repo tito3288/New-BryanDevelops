@@ -8,17 +8,17 @@ const problems = [
   {
     question: "Are you still running your business on spreadsheets and sticky notes?",
     answer:
-      "Fort Wayne is growing fast, and your tools should keep up. Custom software replaces the manual busywork with automated systems that track leads, manage orders, and handle follow-ups for you.",
+      "Goshen is the county seat of Elkhart County and home to serious industry. Your tools should match that level. Custom software replaces the manual busywork with automated systems that track leads, manage orders, and handle follow-ups for you.",
   },
   {
     question: "Losing customers because you can't respond fast enough?",
     answer:
-      "Whether it's a missed call from a homeowner in Aboite or a late reply to an online inquiry, speed wins. I build AI-powered tools that respond instantly: texts, chatbots, and automated follow-ups.",
+      "Whether it's a missed call from a client near Downtown Goshen or a late reply to an online inquiry, speed wins. I build AI-powered tools that respond instantly: texts, chatbots, and automated follow-ups.",
   },
   {
     question: "Paying for 5 different tools that don't talk to each other?",
     answer:
-      "Scheduling app, CRM, invoicing tool, email platform. Sound familiar? I build one custom system that connects everything so your Fort Wayne team isn't wasting time switching between tabs.",
+      "Scheduling app, CRM, invoicing tool, email platform. Sound familiar? I build one custom system that connects everything so your Goshen team isn't wasting time switching between tabs.",
   },
   {
     question: "Can't see how your business is actually doing?",
@@ -68,7 +68,7 @@ const accentClasses: Record<string, { bg: string; text: string; border: string }
   pink: { bg: "bg-pink-500/10", text: "text-pink-400", border: "border-pink-500/20" },
 };
 
-export default function FortWayneSoftwareContent() {
+export default function GoshenSoftwareContent() {
   return (
     <main className="relative overflow-hidden">
       <FloatingDots variant="dark" />
@@ -81,19 +81,19 @@ export default function FortWayneSoftwareContent() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
             <p className="text-emerald-400 text-sm font-semibold tracking-widest uppercase mb-4">
-              Software & App Development, Fort Wayne, IN
+              Software & App Development, Goshen, IN
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
               Custom Software for{" "} <br></br>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-                Fort Wayne
+                Goshen
               </span>{" "}
               Businesses
             </h1>
             <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
-              Fort Wayne is one of the fastest-growing cities in Indiana, and its businesses deserve
-              better than off-the-shelf software. I build custom tools, automations, and apps
-              designed around how your business actually operates.
+              Goshen is the heart of Elkhart County, known for its RV manufacturing heritage and
+              strong community of local businesses. I build custom tools, automations, and apps
+              designed for companies across Goshen and northern Indiana, from manufacturing firms to Main Street shops.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
@@ -113,22 +113,22 @@ export default function FortWayneSoftwareContent() {
 
           <FadeIn delay={200}>
             <p className="mt-12 text-neutral-600 text-sm">
-              Based in South Bend, proudly serving Fort Wayne, northeast Indiana, and businesses nationwide.
+              Based in South Bend, proudly serving Goshen, Elkhart County, and businesses nationwide.
             </p>
           </FadeIn>
         </div>
       </section>
 
-      {/* ========== PAIN POINTS — Fort Wayne specific ========== */}
+      {/* ========== PAIN POINTS — Goshen specific ========== */}
       <section className="relative py-24 sm:py-32 bg-neutral-950">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
           <FadeIn>
             <div className="text-center mb-14">
               <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4">
-                Fort Wayne Business Owners: Sound Familiar?
+                Goshen Business Owners: Sound Familiar?
               </h2>
               <p className="text-neutral-400 text-lg max-w-xl mx-auto">
-                Whether you&apos;re on the north side near Dupont or running a shop downtown on Calhoun,
+                Whether you&apos;re on Main Street or running operations near the Elkhart County Fairgrounds,
                 these problems cost you time and money every single day.
               </p>
             </div>
@@ -165,10 +165,10 @@ export default function FortWayneSoftwareContent() {
             <div className="mb-16">
               <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-3">What I Build</p>
               <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4">
-                Software Solutions for Fort Wayne Companies
+                Software Solutions for Goshen Companies
               </h2>
               <p className="text-neutral-400 text-lg max-w-2xl">
-                From downtown startups to established businesses in southwest Fort Wayne, I build
+                From RV manufacturers to businesses along the Millrace Trail and Downtown Goshen, I build
                 software tailored to your industry, your team, and your customers.
               </p>
             </div>
@@ -223,17 +223,17 @@ export default function FortWayneSoftwareContent() {
           <FadeIn>
             <div className="relative rounded-2xl bg-white/[0.03] border border-white/[0.06] p-8 sm:p-12">
               <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-4">
-                Why Fort Wayne Businesses Choose a Local Developer
+                Why Goshen Businesses Choose a Local Developer
               </h2>
               <p className="text-neutral-400 leading-relaxed mb-6">
                 You could hire a big agency from out of state, or you could work with someone who
-                understands Indiana businesses. I&apos;m based in South Bend, just two hours up the road,
-                and I work with Fort Wayne companies who want a developer they can actually talk to.
+                understands northern Indiana businesses. I&apos;m based in South Bend, about 30 minutes away,
+                and I work with Goshen companies who want a developer they can actually talk to.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
                 <div className="p-5 rounded-xl bg-white/[0.03] border border-white/[0.04]">
                   <p className="text-indigo-400 text-xl font-bold mb-1">Local</p>
-                  <p className="text-neutral-500 text-sm">Based in Indiana, available for in-person meetings in Fort Wayne</p>
+                  <p className="text-neutral-500 text-sm">Based in Indiana, available for in-person meetings in Goshen</p>
                 </div>
                 <div className="p-5 rounded-xl bg-white/[0.03] border border-white/[0.04]">
                   <p className="text-emerald-400 text-xl font-bold mb-1">Direct</p>
@@ -255,16 +255,16 @@ export default function FortWayneSoftwareContent() {
           <FadeIn>
             <div className="text-center mb-12">
               <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-3">
-                Built for Businesses Like Yours
+                Built for Goshen Businesses Like Yours
               </h2>
               <p className="text-neutral-400 max-w-xl mx-auto">
-                Whether you&apos;re in construction, healthcare, retail, home services, or professional services in the Fort Wayne area, custom software can transform how you operate.
+                Whether you&apos;re in RV manufacturing, healthcare, agriculture, or professional services in the Goshen area, custom software can transform how you operate.
               </p>
             </div>
           </FadeIn>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-            {["Contractors", "Healthcare", "Retail", "Restaurants", "Real Estate", "Professional Services"].map((industry, i) => (
+            {["RV Manufacturing", "Healthcare", "Agriculture", "Restaurants", "Real Estate", "Professional Services"].map((industry, i) => (
               <FadeIn key={industry} delay={(i % 6) * 60}>
                 <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.05] text-center hover:bg-white/[0.06] transition-all">
                   <p className="text-neutral-300 text-sm font-medium">{industry}</p>
@@ -283,14 +283,14 @@ export default function FortWayneSoftwareContent() {
           <FadeIn>
             <div className="text-center max-w-2xl mx-auto">
               <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
-                Serving Fort Wayne &amp; Northeast Indiana
+                Serving Goshen &amp; Elkhart County
               </p>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight mb-4">
                 Let&apos;s Build Something for Your Business
               </h2>
               <p className="text-neutral-400 text-lg mb-8">
                 Whether you need a simple automation or a full custom platform, I&apos;ll help you figure out the smartest solution. No pressure, no jargon.
-                Free consultation for Fort Wayne businesses.
+                Free consultation for Goshen businesses.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 <Link

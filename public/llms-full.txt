@@ -19,6 +19,15 @@ Key offerings:
 - Client training included
 - Ongoing support available
 
+Location-specific pages:
+- South Bend, IN: https://bryandevelops.com/services/web-development/south-bend
+- Fort Wayne, IN: https://bryandevelops.com/services/web-development/fort-wayne
+- Warsaw, IN: https://bryandevelops.com/services/web-development/warsaw
+- Mishawaka, IN: https://bryandevelops.com/services/web-development/mishawaka
+- LaPorte, IN: https://bryandevelops.com/services/web-development/laporte
+- Goshen, IN: https://bryandevelops.com/services/web-development/goshen
+- Niles, MI: https://bryandevelops.com/services/web-development/niles
+
 ### Custom Software
 Workflow automation, AI-powered chatbots, business dashboards, and custom platforms built to solve specific business problems. Bryan builds tools that replace manual processes, connect disconnected systems, and give business owners better visibility into their operations.
 
@@ -31,8 +40,14 @@ Key offerings:
 - App development (web and mobile)
 - System integrations
 
-Location-specific page:
+Location-specific pages:
+- South Bend, IN: https://bryandevelops.com/services/software/south-bend
 - Fort Wayne, IN: https://bryandevelops.com/services/software/fort-wayne
+- Warsaw, IN: https://bryandevelops.com/services/software/warsaw
+- Mishawaka, IN: https://bryandevelops.com/services/software/mishawaka
+- LaPorte, IN: https://bryandevelops.com/services/software/laporte
+- Goshen, IN: https://bryandevelops.com/services/software/goshen
+- Niles, MI: https://bryandevelops.com/services/software/niles
 
 ### SEO Services
 Search engine optimization to help businesses get found on Google by the people searching for what they offer. Services include keyword research, on-page optimization, local SEO, technical audits, and ongoing strategy to grow organic traffic.
@@ -46,6 +61,15 @@ Key offerings:
 - Technical SEO audits
 - Monthly reporting and analytics
 - Content strategy guidance
+
+Location-specific pages:
+- South Bend, IN: https://bryandevelops.com/services/seo/south-bend
+- Fort Wayne, IN: https://bryandevelops.com/services/seo/fort-wayne
+- Warsaw, IN: https://bryandevelops.com/services/seo/warsaw
+- Mishawaka, IN: https://bryandevelops.com/services/seo/mishawaka
+- LaPorte, IN: https://bryandevelops.com/services/seo/laporte
+- Goshen, IN: https://bryandevelops.com/services/seo/goshen
+- Niles, MI: https://bryandevelops.com/services/seo/niles
 
 ## Process
 Bryan follows a four-step process for every project:
@@ -62,7 +86,13 @@ Bryan also builds and publishes apps, including:
 ## Areas Served
 - Primary: South Bend, IN (headquarters)
 - Michiana area: Mishawaka, Elkhart, Granger, IN
-- Fort Wayne, IN (dedicated software page)
+- South Bend, IN (headquarters, dedicated landing pages for all 3 services)
+- Fort Wayne, IN (dedicated software, web development, and SEO pages)
+- Warsaw, IN (dedicated software, web development, and SEO pages)
+- Mishawaka, IN (dedicated software, web development, and SEO pages)
+- LaPorte, IN (dedicated software, web development, and SEO pages)
+- Goshen, IN (dedicated software, web development, and SEO pages)
+- Niles, MI (dedicated software, web development, and SEO pages)
 - Remote clients nationwide
 
 ## Contact
@@ -74,9 +104,29 @@ Bryan also builds and publishes apps, including:
 - Home: https://bryandevelops.com/
 - Services: https://bryandevelops.com/services
 - Web Development: https://bryandevelops.com/services/web-development
+- Web Development - South Bend: https://bryandevelops.com/services/web-development/south-bend
+- Web Development - Fort Wayne: https://bryandevelops.com/services/web-development/fort-wayne
+- Web Development - Warsaw: https://bryandevelops.com/services/web-development/warsaw
+- Web Development - Mishawaka: https://bryandevelops.com/services/web-development/mishawaka
+- Web Development - LaPorte: https://bryandevelops.com/services/web-development/laporte
+- Web Development - Goshen: https://bryandevelops.com/services/web-development/goshen
+- Web Development - Niles: https://bryandevelops.com/services/web-development/niles
 - Custom Software: https://bryandevelops.com/services/software
+- Software - South Bend: https://bryandevelops.com/services/software/south-bend
 - Software - Fort Wayne: https://bryandevelops.com/services/software/fort-wayne
+- Software - Warsaw: https://bryandevelops.com/services/software/warsaw
+- Software - Mishawaka: https://bryandevelops.com/services/software/mishawaka
+- Software - LaPorte: https://bryandevelops.com/services/software/laporte
+- Software - Goshen: https://bryandevelops.com/services/software/goshen
+- Software - Niles: https://bryandevelops.com/services/software/niles
 - SEO Services: https://bryandevelops.com/services/seo
+- SEO Services - South Bend: https://bryandevelops.com/services/seo/south-bend
+- SEO Services - Fort Wayne: https://bryandevelops.com/services/seo/fort-wayne
+- SEO Services - Warsaw: https://bryandevelops.com/services/seo/warsaw
+- SEO Services - Mishawaka: https://bryandevelops.com/services/seo/mishawaka
+- SEO Services - LaPorte: https://bryandevelops.com/services/seo/laporte
+- SEO Services - Goshen: https://bryandevelops.com/services/seo/goshen
+- SEO Services - Niles: https://bryandevelops.com/services/seo/niles
 - Projects: https://bryandevelops.com/projects
 - About: https://bryandevelops.com/about
 - Contact: https://bryandevelops.com/contact

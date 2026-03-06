@@ -4,30 +4,30 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title:
-    "SEO Services in South Bend, IN | Bryan Develops — Monthly SEO Management",
+    "SEO Services | Bryan Develops — Monthly SEO Management",
   description:
-    "Monthly SEO management in South Bend, Indiana. Transparent reporting, local SEO, keyword strategy, and content optimization. Month-to-month — no long contracts. Or try simplSEO, the affordable DIY alternative.",
+    "Monthly SEO management with transparent reporting, local SEO, keyword strategy, and content optimization. Month-to-month, no long contracts. Or try simplSEO, the affordable DIY alternative.",
   keywords: [
-    "SEO services South Bend",
-    "SEO company South Bend Indiana",
-    "local SEO South Bend",
+    "SEO services for small business",
+    "SEO company Indiana",
+    "local SEO services",
     "monthly SEO management",
     "SEO vs Google Ads",
     "affordable SEO Indiana",
-    "SEO expert South Bend",
-    "Google ranking South Bend",
+    "SEO expert for hire",
+    "improve Google ranking",
     "SEO near me",
-    "small business SEO South Bend",
-    "SEO Michiana",
+    "small business SEO",
+    "SEO Indiana",
     "search engine optimization Indiana",
     "local SEO near me",
-    "SEO consultant South Bend",
-    "organic traffic South Bend",
+    "SEO consultant",
+    "increase organic traffic",
   ],
   openGraph: {
-    title: "SEO Services in South Bend | Bryan Develops",
+    title: "SEO Services | Bryan Develops",
     description:
-      "Monthly SEO management with transparent reporting. No contracts, no jargon — just results. Serving South Bend, Fort Wayne, and beyond.",
+      "Monthly SEO management with transparent reporting. No contracts, no jargon — just results. Serving Indiana and beyond.",
     type: "website",
   },
 };
@@ -37,7 +37,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Bryan Develops — SEO Services",
   description:
-    "Monthly SEO management, local SEO, keyword strategy, and transparent reporting for businesses in South Bend, Mishawaka, Elkhart, Fort Wayne, and nationwide.",
+    "Monthly SEO management, local SEO, keyword strategy, and transparent reporting for businesses in Indiana and nationwide.",
   url: "https://bryandevelops.com/services/seo",
   areaServed: [
     { "@type": "City", name: "South Bend", addressRegion: "IN" },

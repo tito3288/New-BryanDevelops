@@ -140,7 +140,7 @@ const painPoints = [
   {
     question: "You paid someone to build it but have no idea how to update it?",
     answer:
-      "This is one of the most common things I hear from business owners in South Bend. They paid for a site, the developer disappeared, and now they can't even change their phone number. I build sites you can actually manage, and I teach you how.",
+      "This is one of the most common things I hear from business owners. They paid for a site, the developer disappeared, and now they can't even change their phone number. I build sites you can actually manage, and I teach you how.",
   },
   {
     question: "You're not showing up on Google and losing customers to competitors?",
@@ -261,7 +261,7 @@ export default function WebDevPageContent() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
             <p className="text-indigo-600 text-sm font-semibold tracking-widest uppercase mb-4">
-              Web Design & Development — South Bend, IN
+              Web Design & Development — Indiana
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-900 tracking-tight leading-[1.1] max-w-4xl mb-6">
               A Website That Actually{" "}
@@ -270,7 +270,7 @@ export default function WebDevPageContent() {
               </span>
             </h1>
             <p className="text-neutral-500 text-lg sm:text-xl max-w-2xl mb-8 leading-relaxed">
-              Affordable, professional websites for small businesses in South Bend and beyond.
+              Affordable, professional websites for small businesses in Indiana and beyond.
               Built on the platform that fits your needs, designed to look great, and, best of all,{" "}
               <span className="text-neutral-800 font-medium">I teach you how to manage it yourself.</span>
             </p>
@@ -296,7 +296,7 @@ export default function WebDevPageContent() {
 
           <FadeIn delay={200}>
             <p className="mt-12 text-neutral-400 text-sm">
-              Based in South Bend, Indiana. Serving Michiana businesses and clients nationwide.
+              Based in Indiana. Serving businesses locally and nationwide.
             </p>
           </FadeIn>
         </div>
@@ -353,7 +353,7 @@ export default function WebDevPageContent() {
                 Does This Sound Like You?
               </h2>
               <p className="text-neutral-500 text-lg max-w-xl mx-auto">
-                If you&apos;re a business owner in South Bend dealing with any of these, you&apos;re not alone, and I can help.
+                If you&apos;re a business owner dealing with any of these, you&apos;re not alone, and I can help.
               </p>
             </div>
           </FadeIn>
@@ -591,13 +591,13 @@ export default function WebDevPageContent() {
           <FadeIn>
             <div className="text-center max-w-2xl mx-auto">
               <p className="text-indigo-600 text-sm font-semibold tracking-widest uppercase mb-4">
-                Serving South Bend &amp; Beyond
+                Serving Indiana &amp; Beyond
               </p>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-neutral-900 tracking-tight mb-4">
                 Ready for a Website That Works?
               </h2>
               <p className="text-neutral-500 text-lg mb-8">
-                Whether you&apos;re in South Bend, Mishawaka, Elkhart, or anywhere in the country. Let&apos;s
+                Whether you&apos;re in Indiana or anywhere in the country. Let&apos;s
                 build a site that looks professional, ranks on Google, and you can actually manage yourself.
                 Free consultation, no strings attached.
               </p>

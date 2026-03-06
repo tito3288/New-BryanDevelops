@@ -6,19 +6,6 @@ import FadeIn from "./FadeIn";
 
 const services = [
   {
-    title: "Web Development",
-    href: "/services/web-development",
-    desc: "Affordable, professional websites built on the platform that fits your business: WordPress, Shopify, Squarespace, Wix, or custom code. Training included so you can manage it yourself.",
-    accent: "indigo",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-      </svg>
-    ),
-    highlights: ["Any platform", "SEO-ready", "Training included", "Mobile-friendly"],
-    locations: [] as { label: string; href: string }[],
-  },
-  {
     title: "Custom Software",
     href: "/services/software",
     desc: "Workflow automation, AI chatbots, business dashboards, and custom platforms built to solve the problems slowing your business down. No jargon, just tools that work.",
@@ -30,7 +17,34 @@ const services = [
     ),
     highlights: ["Automation", "AI-powered", "Custom dashboards", "App development"],
     locations: [
+      { label: "South Bend, IN", href: "/services/software/south-bend" },
       { label: "Fort Wayne, IN", href: "/services/software/fort-wayne" },
+      { label: "Warsaw, IN", href: "/services/software/warsaw" },
+      { label: "Mishawaka, IN", href: "/services/software/mishawaka" },
+      { label: "LaPorte, IN", href: "/services/software/laporte" },
+      { label: "Goshen, IN", href: "/services/software/goshen" },
+      { label: "Niles, MI", href: "/services/software/niles" },
+    ],
+  },
+  {
+    title: "Web Development",
+    href: "/services/web-development",
+    desc: "Affordable, professional websites built on the platform that fits your business: WordPress, Shopify, Squarespace, Wix, or custom code. Training included so you can manage it yourself.",
+    accent: "indigo",
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    ),
+    highlights: ["Any platform", "SEO-ready", "Training included", "Mobile-friendly"],
+    locations: [
+      { label: "South Bend, IN", href: "/services/web-development/south-bend" },
+      { label: "Fort Wayne, IN", href: "/services/web-development/fort-wayne" },
+      { label: "Warsaw, IN", href: "/services/web-development/warsaw" },
+      { label: "Mishawaka, IN", href: "/services/web-development/mishawaka" },
+      { label: "LaPorte, IN", href: "/services/web-development/laporte" },
+      { label: "Goshen, IN", href: "/services/web-development/goshen" },
+      { label: "Niles, MI", href: "/services/web-development/niles" },
     ],
   },
   {
@@ -44,7 +58,15 @@ const services = [
       </svg>
     ),
     highlights: ["Local SEO", "Keyword research", "Google rankings", "Traffic growth"],
-    locations: [],
+    locations: [
+      { label: "South Bend, IN", href: "/services/seo/south-bend" },
+      { label: "Fort Wayne, IN", href: "/services/seo/fort-wayne" },
+      { label: "Warsaw, IN", href: "/services/seo/warsaw" },
+      { label: "Mishawaka, IN", href: "/services/seo/mishawaka" },
+      { label: "LaPorte, IN", href: "/services/seo/laporte" },
+      { label: "Goshen, IN", href: "/services/seo/goshen" },
+      { label: "Niles, MI", href: "/services/seo/niles" },
+    ],
   },
 ];
 
@@ -85,7 +107,7 @@ export default function ServicesPageContent() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
           <FadeIn>
             <p className="text-indigo-400 text-sm font-semibold tracking-widest uppercase mb-4">
-              Services, South Bend, IN
+              Services — South Bend, IN
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.1] max-w-3xl mb-6">
               Everything Your Business Needs to{" "}
@@ -216,6 +238,10 @@ export default function ServicesPageContent() {
                 { city: "Mishawaka", state: "IN", primary: false },
                 { city: "Elkhart", state: "IN", primary: false },
                 { city: "Granger", state: "IN", primary: false },
+                { city: "Warsaw", state: "IN", primary: false },
+                { city: "LaPorte", state: "IN", primary: false },
+                { city: "Goshen", state: "IN", primary: false },
+                { city: "Niles", state: "MI", primary: false },
               ].map((area) => (
                 <div
                   key={area.city}

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "Bryan Develops — Custom Software & App Development in Fort Wayne",
+  name: "Bryan Develops, Custom Software & App Development in Fort Wayne",
   description:
     "Custom software development, mobile app development, workflow automation, and AI tools for businesses in Fort Wayne, northeast Indiana, and beyond.",
   url: "https://bryandevelops.com/services/software/fort-wayne",
