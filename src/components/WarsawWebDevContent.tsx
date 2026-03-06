@@ -111,7 +111,7 @@ export default function WarsawWebDevContent() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
             <p className="text-indigo-600 text-sm font-semibold tracking-widest uppercase mb-4">
-              Web Design & Development, Warsaw, IN
+              Web Design & Development — Warsaw, IN
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-900 tracking-tight leading-[1.1] max-w-4xl mb-6">
               Professional Websites for{" "}

@@ -121,7 +121,7 @@ export default function GoshenSeoContent() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 sm:py-40">
           <FadeIn>
             <p className="text-purple-400 text-sm font-semibold tracking-widest uppercase mb-4">
-              SEO Services, Goshen, IN
+              SEO Services — Goshen, IN
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] max-w-4xl mb-6">
               Get More Website Traffic for Your{" "}
