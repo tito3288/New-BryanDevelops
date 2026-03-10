@@ -483,6 +483,81 @@ export default function SoftwarePageContent() {
         </div>
       </section>
 
+      {/* ========== macOS DESKTOP APPS ========== */}
+      <section className="relative py-20 sm:py-24 bg-neutral-950 border-t border-white/[0.04]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <FadeIn>
+            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-12">
+              <div>
+                <p className="text-neutral-500 text-sm font-semibold tracking-widest uppercase mb-3">
+                  Desktop Apps
+                </p>
+                <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
+                  Macbook Apps
+                </h2>
+                <p className="text-neutral-500 text-base mt-2 max-w-lg">
+                  Lightweight macOS utilities I designed and built. Free to download and use.
+                </p>
+              </div>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.04] border border-white/[0.06]">
+                <svg className="w-4 h-4 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                <span className="text-neutral-400 text-xs font-medium">Direct Download</span>
+              </div>
+            </div>
+          </FadeIn>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {[
+              {
+                name: "PinMemories",
+                icon: "/logos/PinMemories.png",
+                desc: "Pin personal photos directly onto your desktop wallpaper. Drag, rotate, resize, and keep multiple photos visible. Your memories persist across reboots.",
+                url: "https://bryandevelops.com/PinMemories.dmg",
+              },
+              {
+                name: "Captura",
+                icon: "/logos/Captura.png",
+                desc: "Lightweight menu bar utility that surfaces your 3 most recent screenshots instantly. Copy to clipboard or drag into any app — no Finder needed.",
+                url: "https://bryandevelops.com/Captura.dmg",
+              },
+            ].map((app, i) => (
+              <FadeIn key={app.name} delay={i * 100}>
+                <a
+                  href={app.url}
+                  download
+                  className="block p-6 rounded-2xl bg-white/[0.02] border border-white/[0.05] hover:bg-white/[0.04] hover:border-white/[0.08] transition-all duration-300 group"
+                >
+                  <div className="flex items-start gap-4 mb-3">
+                    <Image
+                      src={app.icon}
+                      alt={`${app.name} icon`}
+                      width={56}
+                      height={56}
+                      className="rounded-xl object-contain flex-shrink-0"
+                    />
+                    <div className="flex items-center justify-between flex-1 min-w-0">
+                      <h3 className="text-white font-semibold group-hover:text-indigo-300 transition-colors">{app.name}</h3>
+                      <span className="px-2 py-0.5 text-[10px] font-medium rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex-shrink-0">
+                        Free
+                      </span>
+                    </div>
+                  </div>
+                  <p className="text-neutral-500 text-sm leading-relaxed">{app.desc}</p>
+                  <span className="inline-flex items-center gap-1.5 mt-3 text-indigo-400 text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                    Download
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                  </span>
+                </a>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ========== CTA ========== */}
       <section className="relative py-24 sm:py-32 bg-neutral-950">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
