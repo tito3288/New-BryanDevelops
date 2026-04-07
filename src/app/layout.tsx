@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -72,7 +73,14 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${inter.variable} antialiased`}>{children}</body>
+      <body className={`${inter.variable} antialiased`}>
+        {children}
+        <Script
+          src="https://simplassist.com/widget/embed.js"
+          data-business-id="aa30a10e-13c1-4c9b-b9d5-6804cf01e6cb"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   );
 }
